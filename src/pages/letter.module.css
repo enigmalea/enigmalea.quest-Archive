@@ -1,0 +1,105 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.page {
+  display: flex !important;
+  justify-content: center;
+  align-items: start;
+}
+
+.main {
+  background-color: var(--container-color);
+  width: 600px;
+  max-width: 95vw;
+  border-radius: var(--ifm-global-radius);
+  padding: 16px;
+  margin-left: 10px;
+}
+
+/* Text Stylings */
+ul.list, ul.list2 {
+  list-style-type: none;
+}
+
+ul.list li::before {
+  content: '☆';
+  padding-right: .3rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+ul.list2 li::before {
+  content: '⤷';
+  padding-right: .3rem;
+  margin-left: -1.3rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+html[data-theme='dark'] ul.list li::before {
+  color: var(--ifm-color-primary-lightest);
+}
+
+html[data-theme='dark'] ul.list2 li::before {
+  color: var(--ifm-color-primary-lightest);
+}
+
+
+ul.list2 li {
+  font-size: .97rem;
+}
+
+.explain {
+  padding-left: 20px;
+  font-size: .95rem;
+  margin-bottom: 0;
+}
+
+a.likes,
+h2.likes,
+.likes p strong {
+  color: var(--ifm-color-success-lightest);
+}
+
+a.dnw,
+h2.dnw,
+.dnw p strong {
+  color: var(--ifm-color-danger);
+}
+
+.dnw p strong {
+  color: var(--ifm-color-danger-lightest);
+}
+
+h3.dnw {
+  font-size: smaller;
+  color: var(--ifm-color-danger-lightest);
+  padding-bottom: .5rem;
+  border-bottom: 1px solid  var(--ifm-color-danger-lightest);
+}
+
+a.cdnw,
+h2.cdnw,
+.cdnw p strong {
+  color: var(--ifm-color-warning-light);
+}
+
+h3.cdnw {
+  font-size: smaller;
+  color: var(--ifm-color-warning-light);
+  padding-bottom: .5rem;
+  border-bottom: 1px solid  var(--ifm-color-warning-light);
+}
+
+
+@media screen and (max-width: 995px) {
+  .page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}

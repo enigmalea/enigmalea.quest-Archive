@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Retro Future Curly E';
+  src: url('/font/retro_future_curly_e.eot'); 
+  src: url('/font/retro_future_curly_e.eot?#iefix') format('embedded-opentype'),
+      url('/font/retro_future_curly_e.woff') format('woff'), 
+      url('/font/retro_future_curly_e.woff2') format('woff2'), 
+      url('/font/retro_future_curly_e.ttf')  format('truetype'), 
+      url('/font/retro_future_curly_e.svg') format('svg'); 
+  font-weight: normal; 
+  font-style: normal;
+  }
+
+.sidebar {
+  background-color: var(--container-color);
+  width: 200px;
+  border-radius: var(--ifm-global-radius);
+  padding: 16px;
+  text-align: right;
+}
+
+.link, .titles {
+  display: block;
+  width: 100%;
+}
+
+.titles {
+  font-family: 'Retro Future Curly E', cursive;
+  font-size: 1.3rem;
+  text-align: left;
+  border-bottom: 1px solid var(--ifm-link-hover-color);
+  letter-spacing: 0.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.titles:not(:first-child) {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 995px) {
+  .sidebar {
+    width: 600px;
+    max-width: 95vw;
+    max-height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+  }
+
+}

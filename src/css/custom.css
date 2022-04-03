@@ -1,0 +1,321 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Unica+One&family=VT323&family=Anton&display=swap');
+ @import "/fontawesome/css/all.css";
+
+ @font-face {
+  font-family: 'AO3';
+  src: url('/font/AO3.eot'); 
+  src: url('/font/AO3.eot?#iefix') format('embedded-opentype'),
+      url('/font/AO3.woff') format('woff'), 
+      url('/font/AO3.woff2') format('woff2'), 
+      url('/font/AO3.ttf')  format('truetype'), 
+      url('/font/AO3.svg') format('svg'); 
+  font-weight: normal; 
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Retro Future Curly E';
+  src: url('/font/retro_future_curly_e.eot'); 
+  src: url('/font/retro_future_curly_e.eot?#iefix') format('embedded-opentype'),
+      url('/font/retro_future_curly_e.woff') format('woff'), 
+      url('/font/retro_future_curly_e.woff2') format('woff2'), 
+      url('/font/retro_future_curly_e.ttf')  format('truetype'), 
+      url('/font/retro_future_curly_e.svg') format('svg'); 
+  font-weight: normal; 
+  font-style: normal;
+  }
+
+* {
+  line-height: 1.4rem;
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #f3aa70;
+  --ifm-color-primary-dark: #f0974f;
+  --ifm-color-primary-darker: #ef8d3f;
+  --ifm-color-primary-darkest: #e57013;
+  --ifm-color-primary-light: #f6bd91;
+  --ifm-color-primary-lighter: #f7c7a1;
+  --ifm-color-primary-lightest: #fbe4d2;
+  --ifm-background-color: #FCFBED;
+  --ifm-navbar-background-color: #FCFBED;
+  --ifm-navbar-shadow: 1px 1px 5px #f3aa70;
+  --ifm-font-color-base: #54534F;
+  --ifm-blockquote-color: #626262;
+  --ifm-code-background: #f6f8fa;
+  --ifm-link-color: #f3aa70;
+  --ifm-link-hover-color: #779279;
+  --ifm-color-emphasis-300: #433F3D;
+  --ifm-pagination-nav-color-hover: #f3aa70;
+  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
+  --ifm-color-success: rgba(0, 164, 0, 0.6);
+  --ifm-color-info: rgba(84, 199, 236, 0.6);
+  --ifm-color-warning: rgba(255, 186, 0, 0.6);
+  --ifm-color-danger: rgba(250, 56, 62, 0.6);
+  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
+  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
+  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
+  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
+  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
+  --ifm-color-success-contrast-background: rgb(212, 226, 212);
+  --ifm-color-info-contrast-background: rgb(206, 217, 221);
+  --ifm-color-warning-contrast-background: rgb(226, 219, 202);
+  --ifm-color-danger-contrast-background: rgb(226, 207, 208);
+  --ifm-navbar-link-color: #f3aa70;
+  --ifm-navbar-link-hover-color: #779279;
+  --container-color: #f6f8fa;
+  --ifm-font-family-base: 'Lexend', sans-serif;
+  --ifm-font-family-monospace: 'VT323', 'Courier New', monospace;
+  --ifm-code-font-size: 20px;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #5b94cb;
+  --ifm-color-primary-dark: #4585c4;
+  --ifm-color-primary-darker: #3c7ebe;
+  --ifm-color-primary-darkest: #32689c;
+  --ifm-color-primary-light: #71a3d2;
+  --ifm-color-primary-lighter: #7caad6;
+  --ifm-color-primary-lightest: #9ec0e0;
+  --ifm-background-color: #222222;
+  --ifm-navbar-background-color: #222222;
+  --ifm-navbar-shadow: 1px 1px 5px #5b94cb;
+  --ifm-font-color-base: #EEEEEE;
+  --ifm-blockquote-color: #626262;
+  --ifm-code-background: #282a36;
+  --ifm-link-color: #5b94cb;
+  --ifm-link-hover-color: #BA83B6;
+  --ifm-color-emphasis-300: #433F3D;
+  --ifm-pagination-nav-color-hover: #BA83B6;
+  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
+  --ifm-color-success: rgba(0, 164, 0, 0.6);
+  --ifm-color-info: rgba(84, 199, 236, 0.6);
+  --ifm-color-warning: rgba(255, 186, 0, 0.6);
+  --ifm-color-danger: rgba(250, 56, 62, 0.6);
+  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
+  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
+  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
+  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
+  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
+  --ifm-color-success-contrast-background: rgb(212, 226, 212);
+  --ifm-color-info-contrast-background: rgb(206, 217, 221);
+  --ifm-color-warning-contrast-background: rgb(226, 219, 202);
+  --ifm-color-danger-contrast-background: rgb(226, 207, 208);
+  --ifm-navbar-link-color: #5b94cb;
+  --ifm-navbar-link-hover-color: #BA83B6;
+  --container-color: #282a36;
+  --ifm-font-family-base: 'Lexend', sans-serif;
+  --ifm-font-family-monospace: 'VT323', 'Courier New', monospace;
+  --ifm-code-font-size: 20px;
+}
+
+/* Footer Styling */
+.footer--dark {
+  --ifm-footer-background-color: transparent;
+  background-image: url('/img/footerlight.png');
+  background-repeat: repeat-x;
+  background-color: var(--ifm-footer-background-color);
+  background-position: bottom left;
+  min-height: 220px;
+}
+
+[data-theme='dark'] .footer--dark {
+  --ifm-footer-background-color: transparent;
+  background-image: url('/img/footerdark.png');
+  background-repeat: repeat-x;
+  background-color: var(--ifm-footer-background-color);
+  background-position: bottom left;
+  min-height: 220px;
+}
+
+/* Removes Docusaurus external link icon */
+[class*=iconExternalLink] {
+  display: none;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Sets color for Light/Dark Color Icon */
+[class*='lightToggleIcon'] {
+  color: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] [class*='darkToggleIcon'] {
+  color: var(--ifm-color-primary);
+}
+
+
+/* Adds icons to navbar */
+.home::before {
+  font: var(--fa-font-solid);
+  content: '\f015';
+  padding-right: 5px;
+}
+
+.blog::before {
+  font: var(--fa-font-solid);
+  content: '\f303';
+  padding-right: 5px;
+}
+
+.ao3::before {
+  font-family: 'AO3';
+  font-size: 1.3em;
+  content: 'A';
+}
+
+.github::before {
+  font: var(--fa-font-brands);
+  content: '\f09b';
+  padding-right: 5px;
+}
+
+.tumblr::before {
+  font: var(--fa-font-brands);
+  content: '\f173';
+  padding-right: 5px;
+}
+
+.twitter::before {
+  font: var(--fa-font-brands);
+  content: '\f099';
+  padding-right: 5px;
+}
+
+.navbar__items,
+.info,
+.tutorial,
+.ao3,
+.github,
+.tumblr,
+.twitter {
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 996px) {
+  .navbar__items,
+  .info,
+  .tutorial,
+  .ao3,
+  .github,
+  .tumblr,
+  .twitter {
+    justify-content: start;
+    align-items: center;
+  }
+
+  /* Header sizes for mobile */
+  h1 {
+    font-size: 1.902em;
+  }
+
+  h2 {
+    font-size: 1.424em;
+  }
+
+  h3 {
+    font-size: 1.266em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
+}
+
+
+/* Link Styling */
+.navbar__link--active {
+  color: var(--ifm-link-color);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-link-color);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-link-hover-color);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Text Stylings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Retro Future Curly E', cursive;
+  font-weight: normal;
+  color: var(--ifm-color-primary-light);
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--ifm-link-hover-color);
+  color: var(--ifm-font-color-base);
+}
+
+[class*='page_src'],
+[class*='blog-wrapper'],
+[class*='docs-wrapper'] {
+  font-size: 1.1rem;
+}
+
+[class*='docMainContainer'] {
+  margin-top: 2rem;
+}
+
+strong {
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  letter-spacing: .1rem;
+  font-size: .95rem;
+}
+
+em {
+  color: var(--ifm-color-primary-darkest);
+  font-style: normal;
+}
+
+html[data-theme='dark'] em {
+  color: var(--ifm-color-primary-lightest);
+}
