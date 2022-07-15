@@ -55,6 +55,12 @@ ul.list2 li {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem
+}
+
 a.likes,
 h2.likes,
 .likes p strong {
@@ -72,9 +78,7 @@ h2.dnw,
 }
 
 h3.dnw {
-  font-size: smaller;
   color: var(--ifm-color-danger-lightest);
-  padding-bottom: .5rem;
   border-bottom: 1px solid  var(--ifm-color-danger-lightest);
 }
 
@@ -85,9 +89,7 @@ h2.cdnw,
 }
 
 h3.cdnw {
-  font-size: smaller;
   color: var(--ifm-color-warning-light);
-  padding-bottom: .5rem;
   border-bottom: 1px solid  var(--ifm-color-warning-light);
 }
 

@@ -16,27 +16,29 @@ function Main() {
 				feel for things I like and don't like. This is my general info, but more
 				specifics of what I'm looking for are usually included with my prompts
 				during sign-up. If you have questions please feel free to send me{" "}
-				<a href="http://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>. You
-				can also find the link to my tumblr, twitter, and AO3 in the navbar/menu
-				above. For OC info, please check out the link to my Dragon Age OCs;
-				please note my OC list is very incomplete and under construction, so for
-				ships which contain OCs I'm <u>always</u> okay with receiving fics and
-				art with your OCS, default characters, or my own OCs. The choice is
-				yours.
+				<a href="http://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>.
+			</p>
+			<p>
+				You can also find the link to my tumblr, twitter, and AO3 in the
+				navbar/menu above. For OC info, please check out the link to my Dragon
+				Age OCs; please note my OC list is very incomplete and under
+				construction, so for ships which contain OCs I'm <u>always</u> okay with
+				receiving fics and art with your OCS, default characters, or my own OCs.
+				The choice is yours.
 			</p>
 			<p className="text--center">Happy creating!</p>
 			<p className="text--center">
 				<a href="#likes" className={styles.likes}>
-					LIKES
+					Likes
 				</a>{" "}
 				☆{" "}
 				<a href="#dnw" className={styles.dnw}>
-					DNW
+					Do Not Wants
 				</a>
 			</p>
 			<section className={styles.likes}>
 				<a id="likes"></a>
-				<h2 className={styles.likes}>LIKES</h2>
+				<h2 className={styles.likes}>Likes</h2>
 				<p>
 					Below are a few tags I find myself looking for often, or things I'm
 					interested in seeing. These are in no way exclusive or exhaustive. If
@@ -76,7 +78,7 @@ function Main() {
 					/>
 				</p>
 
-                <p>
+				<p>
 					<strong>Specific Characters:</strong>{" "}
 					<em>
 						I particularly enjoy characters in these roles, but I'm not set on
@@ -111,7 +113,7 @@ function Main() {
 			</section>
 			<section className={styles.dnw}>
 				<a id="dnw" className={styles.dnw}></a>
-				<h2 className={styles.dnw}>DNW</h2>
+				<h2 className={styles.dnw}>Do Not Wants</h2>
 				<h3 className={styles.dnw}>DNW to Receive Under Any Circumstances</h3>
 				<p>
 					<strong>General:</strong> Character/Reader (or Second Person),
@@ -191,10 +193,10 @@ function Main() {
 					embarrass someone or to "catch" someone cheating always bother me, as
 					does parents snooping on their children; however, accidental instances
 					or investigations of legitimate concerns don't bother me. Examples of
-					okay: accidentally  seeing a text message, email, bit of a journal entry
-					because it's there, investigating someone's past because you suspect
-					they're a spy/putting people in danger. Not okay: breaking into
-					someone's phone because you think they're cheating, accessing
+					okay: accidentally seeing a text message, email, bit of a journal
+					entry because it's there, investigating someone's past because you
+					suspect they're a spy/putting people in danger. Not okay: breaking
+					into someone's phone because you think they're cheating, accessing
 					someone's email to find out who they're dating, reading someone's
 					journal to find out who they were with because they aren't "allowed"
 					to be friends with someone.

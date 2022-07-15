@@ -28,14 +28,11 @@ return (
             <ul className={styles.list2}>
                 <li><a href="https://fonts.google.com/specimen/Unica+One" target="_blank">Unica One</a> for "enigmalea"
                     header.</li>
-                <li><a href="https://fonts.google.com/specimen/Lexend" target="_blank">Lexend</a> for body text.</li>
-                <li><a href="https://fonts.google.com/specimen/VT323" target="_blank">VT323</a> for monospace/code text.
-                </li>
-                <li><a href="https://fonts.google.com/specimen/Anton" target="_blank">Anton</a> for strong/bold text.
+                <li><a href="https://fonts.google.com/specimen/Comfortaa" target="_blank">Comfortaa</a> for body text.</li>
+                <li><a href="https://rubjo.github.io/victor-mono/" target="_blank">Victor Mono</a> for monospace/code text.
                 </li>
             </ul>
         </li>
-        <li><a href="https://v3x3d.itch.io/retro-future">Retro Future Curly E</a> by VEXED for section headers.</li>
         <li><a href="https://fontawesome.com">Font Awesome</a> for non-unicode icons and symbols (except AO3 logo).</li>
         <li><strong>AO3 Font</strong> for AO3 logo by my awesome bff <a href="http://thefoxinboots.tumblr.com" target="_blank">Fox</a>.</li>
     </ul>

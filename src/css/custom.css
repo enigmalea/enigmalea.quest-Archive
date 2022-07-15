@@ -4,29 +4,40 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Unica+One&family=VT323&family=Anton&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap');
  @import "/fontawesome/css/all.css";
 
  @font-face {
   font-family: 'AO3';
-  src: url('/font/AO3.eot'); 
-  src: url('/font/AO3.eot?#iefix') format('embedded-opentype'),
-      url('/font/AO3.woff') format('woff'), 
-      url('/font/AO3.woff2') format('woff2'), 
-      url('/font/AO3.ttf')  format('truetype'), 
-      url('/font/AO3.svg') format('svg'); 
+  src: url('/fonts/AO3/AO3.eot'); 
+  src: url('/fonts/AO3/AO3.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/AO3/AO3.woff') format('woff'), 
+      url('/fonts/AO3/AO3.woff2') format('woff2'), 
+      url('/fonts/AO3/AO3.ttf')  format('truetype'), 
+      url('/fonts/AO3/AO3.svg') format('svg'); 
   font-weight: normal; 
   font-style: normal;
   }
 
 @font-face {
-  font-family: 'Retro Future Curly E';
-  src: url('/font/retro_future_curly_e.eot'); 
-  src: url('/font/retro_future_curly_e.eot?#iefix') format('embedded-opentype'),
-      url('/font/retro_future_curly_e.woff') format('woff'), 
-      url('/font/retro_future_curly_e.woff2') format('woff2'), 
-      url('/font/retro_future_curly_e.ttf')  format('truetype'), 
-      url('/font/retro_future_curly_e.svg') format('svg'); 
+  font-family: 'Monofur';
+  src: url('/fonts/Monofur/monofur.eot'); 
+  src: url('/fonts/Monofur/monofur.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Monofur/monofur.woff') format('woff'), 
+      url('/fonts/Monofur/monofur.woff2') format('woff2'), 
+      url('/fonts/Monofur/monofur.ttf')  format('truetype'), 
+      url('/fonts/Monofur/monofur.svg') format('svg'); 
+  font-weight: normal; 
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Victor Mono';
+  src: url('/fonts/VictorMono/VictorMono-Regular.eot'); 
+  src: url('/fonts/VictorMono/VictorMono-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/VictorMono/VictorMono-Regular.woff') format('woff'), 
+      url('/fonts/VictorMono/VictorMono-Regular.woff2') format('woff2'), 
+      url('/fonts/VictorMono/VictorMono-Regular.ttf')  format('truetype');
   font-weight: normal; 
   font-style: normal;
   }
@@ -72,9 +83,8 @@
   --ifm-navbar-link-color: #f3aa70;
   --ifm-navbar-link-hover-color: #779279;
   --container-color: #f6f8fa;
-  --ifm-font-family-base: 'Lexend', sans-serif;
-  --ifm-font-family-monospace: 'VT323', 'Courier New', monospace;
-  --ifm-code-font-size: 20px;
+  --ifm-font-family-base: 'Comfortaa', sans-serif;
+  --ifm-font-family-monospace: 'Victor Mono', 'Courier New', monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -114,9 +124,7 @@ html[data-theme='dark'] {
   --ifm-navbar-link-color: #5b94cb;
   --ifm-navbar-link-hover-color: #BA83B6;
   --container-color: #282a36;
-  --ifm-font-family-base: 'Lexend', sans-serif;
-  --ifm-font-family-monospace: 'VT323', 'Courier New', monospace;
-  --ifm-code-font-size: 20px;
+  --ifm-font-family-base: 'Comfortaa', sans-serif;
 }
 
 /* Footer Styling */
@@ -281,17 +289,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Retro Future Curly E', cursive;
+  font-family: 'Monofur', cursive;
   font-weight: normal;
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary);
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
-}
-
-h1 {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--ifm-link-hover-color);
-  color: var(--ifm-font-color-base);
 }
 
 [class*='page_src'],
@@ -300,15 +302,8 @@ h1 {
   font-size: 1.1rem;
 }
 
-[class*='docMainContainer'] {
-  margin-top: 2rem;
-}
-
 strong {
-  font-family: 'Anton', sans-serif;
-  font-weight: normal;
-  letter-spacing: .1rem;
-  font-size: .95rem;
+  letter-spacing: .2rem;
 }
 
 em {
