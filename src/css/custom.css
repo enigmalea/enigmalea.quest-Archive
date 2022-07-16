@@ -128,22 +128,9 @@ html[data-theme='dark'] {
 }
 
 /* Footer Styling */
-.footer--dark {
-  --ifm-footer-background-color: transparent;
-  background-image: url('/img/footerlight.png');
-  background-repeat: repeat-x;
-  background-color: var(--ifm-footer-background-color);
-  background-position: bottom left;
-  min-height: 220px;
-}
-
-[data-theme='dark'] .footer--dark {
-  --ifm-footer-background-color: transparent;
-  background-image: url('/img/footerdark.png');
-  background-repeat: repeat-x;
-  background-color: var(--ifm-footer-background-color);
-  background-position: bottom left;
-  min-height: 220px;
+.footer {
+  height: 15px;
+  background-color: transparent;
 }
 
 /* Removes Docusaurus external link icon */
@@ -313,4 +300,14 @@ em {
 
 html[data-theme='dark'] em {
   color: var(--ifm-color-primary-lightest);
+}
+
+.pagedoll {
+  width: 150px;
+  height: auto;
+  max-width:10%;
+  position:fixed;
+  bottom:5px;
+  right:5px;
+  z-index:3;
 }

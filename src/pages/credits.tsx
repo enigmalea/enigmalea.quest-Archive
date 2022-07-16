@@ -26,20 +26,17 @@ return (
     <ul className={styles.list}>
         <li>Google
             <ul className={styles.list2}>
-                <li><a href="https://fonts.google.com/specimen/Unica+One" target="_blank">Unica One</a> for "enigmalea"
-                    header.</li>
+                <li><a href="https://fonts.google.com/specimen/Unica+One" target="_blank">Unica One</a> for "enigmalea"header.</li>
                 <li><a href="https://fonts.google.com/specimen/Comfortaa" target="_blank">Comfortaa</a> for body text.</li>
-                <li><a href="https://rubjo.github.io/victor-mono/" target="_blank">Victor Mono</a> for monospace/code text.
-                </li>
             </ul>
         </li>
+        <li><a href="https://rubjo.github.io/victor-mono/" target="_blank">Victor Mono</a> for monospace/code text.</li>
         <li><a href="https://fontawesome.com">Font Awesome</a> for non-unicode icons and symbols (except AO3 logo).</li>
         <li><strong>AO3 Font</strong> for AO3 logo by my awesome bff <a href="http://thefoxinboots.tumblr.com" target="_blank">Fox</a>.</li>
     </ul>
-    <h2>Assets</h2>
+    <h2>Art</h2>
     <ul className={styles.list}>
-        <li>Footer made using <a href="https://v3x3d.itch.io/paper-pixels" target="_blank">Paper Pixels</a> platformer
-            pack by VEXED.</li>
+        <li><a href="/img/pagedoll.png">Mascot</a> by <a href="https://twitter.com/KiingFluffybuns" className="twitter">KiingFluffybuns</a></li>
     </ul>
 </div>
 );

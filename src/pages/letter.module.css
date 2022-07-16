@@ -6,12 +6,12 @@
 .page {
   display: flex !important;
   justify-content: center;
-  align-items: start;
+  align-items: stretch;
 }
 
 .main {
   background-color: var(--container-color);
-  width: 600px;
+  width: 700px;
   max-width: 95vw;
   border-radius: var(--ifm-global-radius);
   padding: 16px;

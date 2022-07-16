@@ -17,6 +17,7 @@
   text-align: left;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
+  padding-bottom: 0.4rem;
 }
 
 .titles:not(:first-child) {
@@ -25,7 +26,7 @@
 
 @media screen and (max-width: 995px) {
   .sidebar {
-    width: 600px;
+    width: 700px;
     max-width: 95vw;
     max-height: 200px;
     overflow-y: scroll;
