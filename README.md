@@ -2,11 +2,11 @@
 <h1 align="center">enigmalea</h1>
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/enigmalea/enigmalea?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/enigmalea/enigmalea?style=for-the-badge)
-[![Website Status](https://img.shields.io:/website?style=for-the-badge&up_message=online&url=https%3A%2F%2Fenigmalea.neocities.org)](http://enigmalea.neocities.org)<br />
-[![Follow @dapolyshipping on twitter](https://img.shields.io/twitter/follow/enigmaleaDA?style=for-the-badge&label=Twitter&logo=twitter&logoColor=ffffff&color=1DA1F2)](https://twitter.com/enigmaleaDA)
-[![tumblr](https://img.shields.io/badge/enigmalea-%2336465D.svg?&style=for-the-badge&logo=Tumblr&logoColor=white)](https://enigmalea.tumblr.com)
+![Github](https://img.shields.io/github/license/enigmalea/enigmalea)
+![Last Commit](https://img.shields.io/github/last-commit/enigmalea/enigmalea)
+[![Website Status](https://img.shields.io:/website?&up_message=online&url=https%3A%2F%2Fenigmalea.neocities.org)](http://enigmalea.neocities.org)<br />
+[![Follow @dapolyshipping on twitter](https://img.shields.io/twitter/follow/enigmaleaDA?style=flat&label=Twitter&logo=twitter&logoColor=ffffff&color=1DA1F2)](https://twitter.com/enigmaleaDA)
+[![tumblr](https://img.shields.io/badge/enigmalea-%2336465D.svg?&style=flat&logo=Tumblr&logoColor=white)](https://enigmalea.tumblr.com)
 
 <a href="#about-the-repo">About the Repo</a> &#xa0; | &#xa0;
 <a href="#technology">Technology</a> &#xa0; | &#xa0;
