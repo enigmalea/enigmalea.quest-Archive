@@ -1,41 +1,32 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<h1 align="center">enigmalea</h1>
+<div align="center">
 
-### Installation
+![MIT License](https://img.shields.io/github/license/enigmalea/enigmalea?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/enigmalea/enigmalea?style=for-the-badge)
+[![Website Status](https://img.shields.io:/website?style=for-the-badge&up_message=online&url=https%3A%2F%2Fenigmalea.neocities.org)](http://enigmalea.neocities.org)<br />
+[![Follow @dapolyshipping on twitter](https://img.shields.io/twitter/follow/enigmaleaDA?style=for-the-badge&label=Twitter&logo=twitter&logoColor=ffffff&color=1DA1F2)](https://twitter.com/enigmaleaDA)
+[![tumblr](https://img.shields.io/badge/enigmalea-%2336465D.svg?&style=for-the-badge&logo=Tumblr&logoColor=white)](https://enigmalea.tumblr.com)
 
-```
-$ yarn
-```
+<a href="#about">About the Repo</a> &#xa0; | &#xa0;
+<a href="#technology">Technology</a> &#xa0; | &#xa0;
+<a href="#author" target="_blank">Author Info</a>
 
-### Local Development
+</div>
 
-```
-$ yarn start
-```
+<br>
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## About the Repo ##
+My repository for my personal webpage - a home for my random stuff that doesn't quite fit on any other social media. Part dev log, part portfolio, part fandom blatherings
 
-### Build
+## Technology ##
+The website was built using [Docusaurus](https://docusaurus.io) which uses a combination of markdown, React, javascript, html, and css to generate a static site. The site is hosted on [neocities](http://www.neocities.org).
 
-```
-$ yarn build
-```
+## Author Info ##
+I've dabbled in HTML and CSS on and off for 25+ years for various fandom and hobby pursuits. in February 2021, I woke up one day and decided to make a Discord bot. I haven't really stopped coding since.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Right now, my focus is on learning various languages and technologies through fandom projects - my bot, running exchanges, building communities, and making tools for other fandom enthusiasts to use.
 
-### Deployment
+Visit my [website](http://enigmalea.neocities.org) for more info on where you can find me, and what I'm working on.
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<a href="#top">Back to top</a>
