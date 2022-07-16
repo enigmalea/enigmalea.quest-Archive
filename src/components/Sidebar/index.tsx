@@ -36,6 +36,10 @@ const LinksList: SidebarItem[] = [
     title: 'Credits',
     link: '/credits'
   },
+  {
+    title: 'Update Log',
+    link: '/blog'
+  },
 ];
 
 function SidebarList({title, link}: SidebarItem) {
