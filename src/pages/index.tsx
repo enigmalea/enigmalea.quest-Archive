@@ -21,12 +21,6 @@ return (
     <li><strong>Dragon Age OCs:</strong> my <a href="http://www.toyhou.se">toyhou.se</a> folder for all my Dragon Age
       characters (still massively under construction like everything else in my life).</li>
   </ul>
-
-  <h2>What Doesn't Work</h2>
-  <ul className={styles.list}>
-    <li> The self-hosted blog link in the top navbar/menu (represented by the pencil) still has the default entries from
-      Docusaurus. I know I want to use the self-hosted blog, but I'm not quite sure what I'll use it for yet!</li>
-  </ul>
 </div>
 );
 }

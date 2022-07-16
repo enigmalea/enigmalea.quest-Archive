@@ -311,3 +311,11 @@ html[data-theme='dark'] em {
   right:5px;
   z-index:3;
 }
+
+figcaption {
+  font-size: 0.95rem;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}

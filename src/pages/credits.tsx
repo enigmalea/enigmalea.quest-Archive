@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './credits.module.css';
 import Header from '@site/src/components/Header';
@@ -36,7 +35,7 @@ return (
     </ul>
     <h2>Art</h2>
     <ul className={styles.list}>
-        <li><a href="/img/pagedoll.png">Mascot</a> by <a href="https://twitter.com/KiingFluffybuns" className="twitter">KiingFluffybuns</a></li>
+        <li><a href="https://twitter.com/enigmaleaDA/status/1536787197231255555?s=20&t=KznHSdLRPlEQLOkc7Sv6vg">Mascot</a> by <a href="https://twitter.com/KiingFluffybuns" className="twitter">KiingFluffybuns</a></li>
     </ul>
 </div>
 );

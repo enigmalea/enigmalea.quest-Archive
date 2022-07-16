@@ -21,11 +21,17 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
-					breadcrumbs: false,
+					breadcrumbs: true,
 					sidebarPath: require.resolve("./sidebars.js"),
 				},
 				blog: {
+					blogTitle: 'Update Log',
+					blogDescription: 'See the updates to enigmalea\'s website, random project updates, and various blatherings that don\'t fit on other social media.',
 					showReadingTime: true,
+					feedOptions: {
+						type: 'all',
+						copyright: `Copyright © ${new Date().getFullYear()} enigmalea`,
+					  },
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
