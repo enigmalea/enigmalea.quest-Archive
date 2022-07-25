@@ -103,6 +103,11 @@ const config = {
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} enigmalea. Built with Docusaurus.`,
 			},
+			colorMode: {
+				defaultMode: 'dark',
+				disableSwitch: false,
+				respectPrefersColorScheme: true,
+			  },
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
