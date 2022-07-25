@@ -89,19 +89,20 @@ const config = {
 				],
 			},
 			footer: {
-        links: [
-          {
-            title: ' ',
-            items: [
-              {
-                html: `
-                  <img class="pagedoll" title="art by @KiingFluffybuns" src="/img/pagedoll.png"></img>
-                  `,
-              },
-            ],
-          },
-        ],
-      },
+				links: [
+					{
+						title: ' ',
+							items: [
+								{
+									html: `
+									<img class="pagedoll" title="art by @KiingFluffybuns" src="/img/pagedoll.png"></img>
+									`,
+								},
+							],
+					},
+				],
+				copyright: `Copyright © ${new Date().getFullYear()} enigmalea. Built with Docusaurus.`,
+			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,

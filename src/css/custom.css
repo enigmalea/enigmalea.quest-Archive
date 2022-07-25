@@ -56,6 +56,7 @@
   --ifm-color-primary-lighter: #f7c7a1;
   --ifm-color-primary-lightest: #fbe4d2;
   --ifm-background-color: #FCFBED;
+  --ifm-background-surface-color: var(--container-color);
   --ifm-navbar-background-color: #FCFBED;
   --ifm-navbar-shadow: 1px 1px 5px #f3aa70;
   --ifm-font-color-base: #54534F;
@@ -97,6 +98,7 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #7caad6;
   --ifm-color-primary-lightest: #9ec0e0;
   --ifm-background-color: #222222;
+  --ifm-background-surface-color: var(--container-color);
   --ifm-navbar-background-color: #222222;
   --ifm-navbar-shadow: 1px 1px 5px #5b94cb;
   --ifm-font-color-base: #EEEEEE;
@@ -129,7 +131,7 @@ html[data-theme='dark'] {
 
 /* Footer Styling */
 .footer {
-  height: 15px;
+  font-family: var(--ifm-font-family-monospace);
   background-color: transparent;
 }
 
@@ -318,4 +320,9 @@ figcaption {
   font-variant: small-caps;
   text-align: center;
   letter-spacing: 0.1rem;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-secondary);
+  margin-bottom: 10px;
 }
