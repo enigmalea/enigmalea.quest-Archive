@@ -29,6 +29,10 @@ const LinksList: SidebarItem[] = [
     link: '/letter'
   },
   {
+    title: 'Owned Ships',
+    link: '/ships'
+  },
+  {
     title: 'Info',
     link: ''
   },

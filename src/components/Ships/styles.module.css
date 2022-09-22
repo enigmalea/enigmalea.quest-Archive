@@ -1,0 +1,48 @@
+.nounderline {
+  text-decoration: none;
+}
+
+.ships {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: top;
+  width: fit-content;
+}
+
+.page {
+  display: flex !important;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.main {
+  background-color: var(--container-color);
+  width: 700px;
+  max-width: 95vw;
+  border-radius: var(--ifm-global-radius);
+}
+
+.stats {
+  font-size: 0.90rem;
+}
+
+.card__image.responsive {
+  padding: 0px;
+}
+
+.responsive {
+  max-width: 85vw;
+}
+
+@media screen and (max-width:670px) { 
+  .responsive {
+    padding: 0px;
+  }
+}
+
+.preview {
+  width: 325px;
+  max-width: 95vw;
+  object-fit: cover;
+}
