@@ -32,7 +32,7 @@ const ShipsList: ShipsItem[] = [
 	{
 		title: "Zuko/Sokka",
 		// ao3_tag: "https://archiveofourown.org/tag_sets/7219",
-		img: "/img/ships/Zukka.png",
+		img: "/img/ships/zukka.png",
 		// details: <>Some stuff about the ship.</>,
 	},
 ];
