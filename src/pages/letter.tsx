@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./letter.module.css";
+import styles from "./index.module.css";
 import Header from "@site/src/components/Header";
 import Sidebar from "@site/src/components/Sidebar";
 import { Spoiler } from "react-spoiler-tag";
