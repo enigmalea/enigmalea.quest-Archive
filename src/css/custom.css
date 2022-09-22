@@ -42,6 +42,15 @@
   font-style: normal;
   }
 
+  @font-face {
+    font-family: 'VictorMonoItalic';
+    src: url('/fonts/VictorMono/VictorMono-italic.eot'); 
+    src: url('/fonts/VictorMono/VictorMono-italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/VictorMono/VictorMono-italic.woff') format('woff'), 
+        url('/fonts/VictorMono/VictorMono-italic.woff2') format('woff2'), 
+        url('/fonts/VictorMono/VictorMono-italic.ttf')  format('truetype');
+    }
+
 * {
   line-height: 1.4rem;
 }
@@ -68,16 +77,16 @@
   --ifm-link-hover-color: #dc8a78;
   --ifm-color-emphasis-300: #9ca0b0;
   --ifm-pagination-nav-color-hover: #fe640b;
-  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
-  --ifm-color-success: rgba(0, 164, 0, 0.6);
-  --ifm-color-info: rgba(84, 199, 236, 0.6);
-  --ifm-color-warning: rgba(255, 186, 0, 0.6);
-  --ifm-color-danger: rgba(250, 56, 62, 0.6);
-  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
-  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
-  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
-  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
-  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary: #8c8fa1;
+  --ifm-color-success: 	#40a02b;
+  --ifm-color-info: #179299;
+  --ifm-color-warning: #fe640b;
+  --ifm-color-danger: #d20f39;
+  --ifm-color-secondary-dark: #8c8fa1;
+  --ifm-color-success-dark: 	#40a02b;
+  --ifm-color-info-dark: #179299;
+  --ifm-color-warning-dark: #fe640b;
+  --ifm-color-danger-dark: #d20f39;
   --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
   --ifm-color-success-contrast-background: rgb(212, 226, 212);
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
@@ -112,16 +121,16 @@ html[data-theme='dark'] {
   --ifm-color-emphasis-300: #6e738d;
   --ifm-toc-border-color: #6e738d;
   --ifm-pagination-nav-color-hover: #f5a97f;
-  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
-  --ifm-color-success: rgba(0, 164, 0, 0.6);
-  --ifm-color-info: rgba(84, 199, 236, 0.6);
-  --ifm-color-warning: rgba(255, 186, 0, 0.6);
-  --ifm-color-danger: rgba(250, 56, 62, 0.6);
-  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
-  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
-  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
-  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
-  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-color-secondary: #8087a2;
+  --ifm-color-success: 	#a6da95;
+  --ifm-color-info: 	#8bd5ca;
+  --ifm-color-warning: #f5a97f;
+  --ifm-color-danger: #ed8796;
+  --ifm-color-secondary-dark: #8087a2;
+  --ifm-color-success-dark: 	#a6da95;
+  --ifm-color-info-dark: 	#8bd5ca;
+  --ifm-color-warning-dark: #f5a97f;
+  --ifm-color-danger-dark: #ed8796;
   --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
   --ifm-color-success-contrast-background: rgb(212, 226, 212);
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
@@ -280,8 +289,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Victor Mono', cursive;
+  font-family: 'Victor Mono', monospace;
   font-weight: normal;
+  font-style: normal;
   color: var(--header-color);
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
@@ -293,13 +303,13 @@ h6 {
   font-size: 1.1rem;
 }
 
-strong {
+strong, b {
   letter-spacing: .2rem;
 }
 
 em {
-  color: var(--ifm-color-primary-darkest);
-  font-style: normal;
+  font-family: 'VictorMonoItalic', cursive;
+  font-style: italic;
 }
 
 html[data-theme='dark'] em {

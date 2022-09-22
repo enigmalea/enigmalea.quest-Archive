@@ -11,7 +11,7 @@
 }
 
 .titles {
-  font-family: 'Victor Mono', cursive;
+  font-family: 'Victor Mono', monospace;
   color: var(--header-color);
   font-size: 1.3rem;
   text-align: left;

@@ -57,7 +57,7 @@ ul.list2 li {
 a.likes,
 h2.likes,
 .likes p strong {
-  color: var(--ifm-color-success-lightest);
+  color: var(--ifm-color-success);
 }
 
 a.dnw,
@@ -67,25 +67,26 @@ h2.dnw,
 }
 
 .dnw p strong {
-  color: var(--ifm-color-danger-lightest);
+  color: var(--ifm-color-danger);
 }
 
+
 h3.dnw {
-  color: var(--ifm-color-danger-lightest);
+  color: var(--ifm-color-danger);
   padding-bottom: .5rem;
-  border-bottom: 1px solid  var(--ifm-color-danger-lightest);
+  border-bottom: 1px solid  var(--ifm-color-danger);
 }
 
 a.cdnw,
 h2.cdnw,
 .cdnw p strong {
-  color: var(--ifm-color-warning-light);
+  color: var(--ifm-color-warning);
 }
 
 h3.cdnw {
-  color: var(--ifm-color-warning-light);
+  color: var(--ifm-color-warning);
   padding-bottom: .5rem;
-  border-bottom: 1px solid  var(--ifm-color-warning-light);
+  border-bottom: 1px solid  var(--ifm-color-warning);
 }
 
 @media screen and (max-width: 995px) {
