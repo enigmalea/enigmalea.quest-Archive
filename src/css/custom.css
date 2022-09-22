@@ -48,24 +48,26 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #f3aa70;
-  --ifm-color-primary-dark: #f0974f;
-  --ifm-color-primary-darker: #ef8d3f;
-  --ifm-color-primary-darkest: #e57013;
-  --ifm-color-primary-light: #f6bd91;
-  --ifm-color-primary-lighter: #f7c7a1;
-  --ifm-color-primary-lightest: #fbe4d2;
-  --ifm-background-color: #FCFBED;
+  --ifm-color-primary: #dc8a78;
+  --ifm-color-primary-dark: #d5735d;
+  --ifm-color-primary-darker: #d26750;
+  --ifm-color-primary-darkest: #bd4a31;
+  --ifm-color-primary-light: #e3a193;
+  --ifm-color-primary-lighter: #e6ada1;
+  --ifm-color-primary-lightest: #f1d0c9;
+  --ifm-background-color: #eff1f5;
+  --container-color: #e6e9ef;
   --ifm-background-surface-color: var(--container-color);
-  --ifm-navbar-background-color: #FCFBED;
-  --ifm-navbar-shadow: 1px 1px 5px #f3aa70;
-  --ifm-font-color-base: #54534F;
-  --ifm-blockquote-color: #626262;
-  --ifm-code-background: #f6f8fa;
-  --ifm-link-color: #f3aa70;
-  --ifm-link-hover-color: #779279;
-  --ifm-color-emphasis-300: #433F3D;
-  --ifm-pagination-nav-color-hover: #f3aa70;
+  --ifm-navbar-background-color: #eff1f5;
+  --ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
+  --ifm-font-color-base: #4c4f69;
+  --ifm-blockquote-color: #6c6f85;
+  --header-color: #5c5f77;
+  --ifm-code-background: #e6e9ef;
+  --ifm-link-color: #dc8a78;
+  --ifm-link-hover-color: #dc8a78;
+  --ifm-color-emphasis-300: #9ca0b0;
+  --ifm-pagination-nav-color-hover: #fe640b;
   --ifm-color-secondary: rgba(207, 209, 211, 0.6);
   --ifm-color-success: rgba(0, 164, 0, 0.6);
   --ifm-color-info: rgba(84, 199, 236, 0.6);
@@ -81,33 +83,35 @@
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
   --ifm-color-warning-contrast-background: rgb(226, 219, 202);
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
-  --ifm-navbar-link-color: #f3aa70;
-  --ifm-navbar-link-hover-color: #779279;
-  --container-color: #f6f8fa;
+  --ifm-navbar-link-color: #dc8a78;
+  --ifm-navbar-link-hover-color: #fe640b;
   --ifm-font-family-base: 'Comfortaa', sans-serif;
   --ifm-font-family-monospace: 'Victor Mono', 'Courier New', monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
-  --ifm-color-primary: #5b94cb;
-  --ifm-color-primary-dark: #4585c4;
-  --ifm-color-primary-darker: #3c7ebe;
-  --ifm-color-primary-darkest: #32689c;
-  --ifm-color-primary-light: #71a3d2;
-  --ifm-color-primary-lighter: #7caad6;
-  --ifm-color-primary-lightest: #9ec0e0;
-  --ifm-background-color: #222222;
+  --ifm-color-primary: #f4dbd6;
+  --ifm-color-primary-dark: #eabbb2;
+  --ifm-color-primary-darker: #e5aba0;
+  --ifm-color-primary-darkest: #d77c6a;
+  --ifm-color-primary-light: #fefbfa;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #24273a;
+  --container-color: #282a36;
   --ifm-background-surface-color: var(--container-color);
-  --ifm-navbar-background-color: #222222;
-  --ifm-navbar-shadow: 1px 1px 5px #5b94cb;
+  --ifm-navbar-background-color: #24273a;
+  --ifm-navbar-shadow: 1px 1px 0px #6e738d;
   --ifm-font-color-base: #EEEEEE;
-  --ifm-blockquote-color: #626262;
+  --ifm-blockquote-color: #a5adcb;
   --ifm-code-background: #282a36;
-  --ifm-link-color: #5b94cb;
-  --ifm-link-hover-color: #BA83B6;
-  --ifm-color-emphasis-300: #433F3D;
-  --ifm-pagination-nav-color-hover: #BA83B6;
+  --ifm-link-color: #f4dbd6;
+  --ifm-link-hover-color: #f4dbd6;
+  --header-color: #b8c0e0;
+  --ifm-color-emphasis-300: #6e738d;
+  --ifm-toc-border-color: #6e738d;
+  --ifm-pagination-nav-color-hover: #f5a97f;
   --ifm-color-secondary: rgba(207, 209, 211, 0.6);
   --ifm-color-success: rgba(0, 164, 0, 0.6);
   --ifm-color-info: rgba(84, 199, 236, 0.6);
@@ -123,10 +127,8 @@ html[data-theme='dark'] {
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
   --ifm-color-warning-contrast-background: rgb(226, 219, 202);
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
-  --ifm-navbar-link-color: #5b94cb;
-  --ifm-navbar-link-hover-color: #BA83B6;
-  --container-color: #282a36;
-  --ifm-font-family-base: 'Comfortaa', sans-serif;
+  --ifm-navbar-link-color: #f4dbd6;
+  --ifm-navbar-link-hover-color: #f5a97f;
 }
 
 /* Footer Styling */
@@ -278,9 +280,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Monofur', cursive;
+  font-family: 'Victor Mono', cursive;
   font-weight: normal;
-  color: var(--ifm-color-primary);
+  color: var(--header-color);
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
 }
