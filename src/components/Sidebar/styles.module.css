@@ -11,7 +11,8 @@
 }
 
 .titles {
-  font-family: 'Monofur', cursive;
+  font-family: 'Victor Mono', monospace;
+  color: var(--header-color);
   font-size: 1.3rem;
   text-align: left;
   letter-spacing: 0.1rem;

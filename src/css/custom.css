@@ -20,18 +20,6 @@
   }
 
 @font-face {
-  font-family: 'Monofur';
-  src: url('/fonts/Monofur/monofur.eot'); 
-  src: url('/fonts/Monofur/monofur.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/Monofur/monofur.woff') format('woff'), 
-      url('/fonts/Monofur/monofur.woff2') format('woff2'), 
-      url('/fonts/Monofur/monofur.ttf')  format('truetype'), 
-      url('/fonts/Monofur/monofur.svg') format('svg'); 
-  font-weight: normal; 
-  font-style: normal;
-  }
-
-@font-face {
   font-family: 'Victor Mono';
   src: url('/fonts/VictorMono/VictorMono-Regular.eot'); 
   src: url('/fonts/VictorMono/VictorMono-Regular.eot?#iefix') format('embedded-opentype'),
@@ -42,91 +30,106 @@
   font-style: normal;
   }
 
+  @font-face {
+    font-family: 'VictorMonoItalic';
+    src: url('/fonts/VictorMono/VictorMono-italic.eot'); 
+    src: url('/fonts/VictorMono/VictorMono-italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/VictorMono/VictorMono-italic.woff') format('woff'), 
+        url('/fonts/VictorMono/VictorMono-italic.woff2') format('woff2'), 
+        url('/fonts/VictorMono/VictorMono-italic.ttf')  format('truetype');
+    }
+
 * {
   line-height: 1.4rem;
 }
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #f3aa70;
-  --ifm-color-primary-dark: #f0974f;
-  --ifm-color-primary-darker: #ef8d3f;
-  --ifm-color-primary-darkest: #e57013;
-  --ifm-color-primary-light: #f6bd91;
-  --ifm-color-primary-lighter: #f7c7a1;
-  --ifm-color-primary-lightest: #fbe4d2;
-  --ifm-background-color: #FCFBED;
+  --ifm-color-primary: #dc8a78;
+  --ifm-color-primary-dark: #d5735d;
+  --ifm-color-primary-darker: #d26750;
+  --ifm-color-primary-darkest: #bd4a31;
+  --ifm-color-primary-light: #e3a193;
+  --ifm-color-primary-lighter: #e6ada1;
+  --ifm-color-primary-lightest: #f1d0c9;
+  --ifm-background-color: #eff1f5;
+  --container-color: #e6e9ef;
   --ifm-background-surface-color: var(--container-color);
-  --ifm-navbar-background-color: #FCFBED;
-  --ifm-navbar-shadow: 1px 1px 5px #f3aa70;
-  --ifm-font-color-base: #54534F;
-  --ifm-blockquote-color: #626262;
-  --ifm-code-background: #f6f8fa;
-  --ifm-link-color: #f3aa70;
-  --ifm-link-hover-color: #779279;
-  --ifm-color-emphasis-300: #433F3D;
-  --ifm-pagination-nav-color-hover: #f3aa70;
-  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
-  --ifm-color-success: rgba(0, 164, 0, 0.6);
-  --ifm-color-info: rgba(84, 199, 236, 0.6);
-  --ifm-color-warning: rgba(255, 186, 0, 0.6);
-  --ifm-color-danger: rgba(250, 56, 62, 0.6);
-  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
-  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
-  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
-  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
-  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-navbar-background-color: #eff1f5;
+  --ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
+  --ifm-font-color-base: #4c4f69;
+  --ifm-blockquote-color: #6c6f85;
+  --header-color: #5c5f77;
+  --ifm-code-background: #e6e9ef;
+  --ifm-link-color: #dc8a78;
+  --ifm-link-hover-color: #dc8a78;
+  --ifm-color-emphasis-300: #9ca0b0;
+  --ifm-pagination-nav-color-hover: #fe640b;
+  --ifm-color-secondary: #8c8fa1;
+  --ifm-color-success: 	#40a02b;
+  --ifm-color-info: #179299;
+  --ifm-color-warning: #fe640b;
+  --ifm-color-danger: #d20f39;
+  --ifm-color-secondary-dark: #8c8fa1;
+  --ifm-color-success-dark: 	#40a02b;
+  --ifm-color-info-dark: #179299;
+  --ifm-color-warning-dark: #fe640b;
+  --ifm-color-danger-dark: #d20f39;
   --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
   --ifm-color-success-contrast-background: rgb(212, 226, 212);
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
   --ifm-color-warning-contrast-background: rgb(226, 219, 202);
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
-  --ifm-navbar-link-color: #f3aa70;
-  --ifm-navbar-link-hover-color: #779279;
-  --container-color: #f6f8fa;
+  --ifm-navbar-link-color: #dc8a78;
+  --ifm-navbar-link-hover-color: #fe640b;
+  --tag-font: #1e66f5;
+  --tag-background: rgba(138,173,244,0.15);
   --ifm-font-family-base: 'Comfortaa', sans-serif;
   --ifm-font-family-monospace: 'Victor Mono', 'Courier New', monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
-  --ifm-color-primary: #5b94cb;
-  --ifm-color-primary-dark: #4585c4;
-  --ifm-color-primary-darker: #3c7ebe;
-  --ifm-color-primary-darkest: #32689c;
-  --ifm-color-primary-light: #71a3d2;
-  --ifm-color-primary-lighter: #7caad6;
-  --ifm-color-primary-lightest: #9ec0e0;
-  --ifm-background-color: #222222;
+  --ifm-color-primary: #f4dbd6;
+  --ifm-color-primary-dark: #eabbb2;
+  --ifm-color-primary-darker: #e5aba0;
+  --ifm-color-primary-darkest: #d77c6a;
+  --ifm-color-primary-light: #fefbfa;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #24273a;
+  --container-color: #282a36;
   --ifm-background-surface-color: var(--container-color);
-  --ifm-navbar-background-color: #222222;
-  --ifm-navbar-shadow: 1px 1px 5px #5b94cb;
+  --ifm-navbar-background-color: #24273a;
+  --ifm-navbar-shadow: 1px 1px 0px #6e738d;
   --ifm-font-color-base: #EEEEEE;
-  --ifm-blockquote-color: #626262;
+  --ifm-blockquote-color: #a5adcb;
   --ifm-code-background: #282a36;
-  --ifm-link-color: #5b94cb;
-  --ifm-link-hover-color: #BA83B6;
-  --ifm-color-emphasis-300: #433F3D;
-  --ifm-pagination-nav-color-hover: #BA83B6;
-  --ifm-color-secondary: rgba(207, 209, 211, 0.6);
-  --ifm-color-success: rgba(0, 164, 0, 0.6);
-  --ifm-color-info: rgba(84, 199, 236, 0.6);
-  --ifm-color-warning: rgba(255, 186, 0, 0.6);
-  --ifm-color-danger: rgba(250, 56, 62, 0.6);
-  --ifm-color-secondary-dark: rgba(212, 213, 216, 0.6);
-  --ifm-color-success-dark: rgba(0, 148, 0, 0.6);
-  --ifm-color-info-dark: rgba(76, 179, 212, 0.6);
-  --ifm-color-warning-dark: rgba(230, 167, 0, 0.6);
-  --ifm-color-danger-dark: rgba(225, 50, 56, 0.6);
+  --ifm-link-color: #f4dbd6;
+  --ifm-link-hover-color: #f4dbd6;
+  --header-color: #b8c0e0;
+  --ifm-color-emphasis-300: #6e738d;
+  --ifm-toc-border-color: #6e738d;
+  --ifm-pagination-nav-color-hover: #f5a97f;
+  --ifm-color-secondary: #8087a2;
+  --ifm-color-success: 	#a6da95;
+  --ifm-color-info: 	#8bd5ca;
+  --ifm-color-warning: #f5a97f;
+  --ifm-color-danger: #ed8796;
+  --ifm-color-secondary-dark: #8087a2;
+  --ifm-color-success-dark: 	#a6da95;
+  --ifm-color-info-dark: 	#8bd5ca;
+  --ifm-color-warning-dark: #f5a97f;
+  --ifm-color-danger-dark: #ed8796;
   --ifm-color-secondary-contrast-background: rgb(231, 231, 231);
   --ifm-color-success-contrast-background: rgb(212, 226, 212);
   --ifm-color-info-contrast-background: rgb(206, 217, 221);
   --ifm-color-warning-contrast-background: rgb(226, 219, 202);
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
-  --ifm-navbar-link-color: #5b94cb;
-  --ifm-navbar-link-hover-color: #BA83B6;
-  --container-color: #282a36;
-  --ifm-font-family-base: 'Comfortaa', sans-serif;
+  --ifm-navbar-link-color: #f4dbd6;
+  --ifm-navbar-link-hover-color: #f5a97f;
+  --tag-font: #8aadf4;
+  --tag-background: rgba(138,173,244,0.15);
 }
 
 /* Footer Styling */
@@ -278,9 +281,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Monofur', cursive;
+  font-family: 'Victor Mono', monospace;
   font-weight: normal;
-  color: var(--ifm-color-primary);
+  font-style: normal;
+  color: var(--header-color);
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
 }
@@ -291,13 +295,13 @@ h6 {
   font-size: 1.1rem;
 }
 
-strong {
+strong, b {
   letter-spacing: .2rem;
 }
 
 em {
-  color: var(--ifm-color-primary-darkest);
-  font-style: normal;
+  font-family: 'VictorMonoItalic', cursive;
+  font-style: italic;
 }
 
 html[data-theme='dark'] em {
@@ -325,4 +329,10 @@ figcaption {
 .card {
   border: 1px solid var(--ifm-color-secondary);
   margin-bottom: 10px;
+}
+
+li [class^="tag"] {
+  color: var(--tag-font);
+  background: var(--tag-background);
+  border: 0px;
 }
