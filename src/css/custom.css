@@ -32,11 +32,11 @@
 
   @font-face {
     font-family: 'VictorMonoItalic';
-    src: url('/fonts/VictorMono/VictorMono-italic.eot'); 
-    src: url('/fonts/VictorMono/VictorMono-italic.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/VictorMono/VictorMono-italic.woff') format('woff'), 
-        url('/fonts/VictorMono/VictorMono-italic.woff2') format('woff2'), 
-        url('/fonts/VictorMono/VictorMono-italic.ttf')  format('truetype');
+    src: url('/fonts/VictorMono/VictorMono-Italic.eot'); 
+    src: url('/fonts/VictorMono/VictorMono-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/VictorMono/VictorMono-Italic.woff') format('woff'), 
+        url('/fonts/VictorMono/VictorMono-Italic.woff2') format('woff2'), 
+        url('/fonts/VictorMono/VictorMono-Italic.ttf')  format('truetype');
     }
 
 * {
