@@ -20,18 +20,6 @@
   }
 
 @font-face {
-  font-family: 'Monofur';
-  src: url('/fonts/Monofur/monofur.eot'); 
-  src: url('/fonts/Monofur/monofur.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/Monofur/monofur.woff') format('woff'), 
-      url('/fonts/Monofur/monofur.woff2') format('woff2'), 
-      url('/fonts/Monofur/monofur.ttf')  format('truetype'), 
-      url('/fonts/Monofur/monofur.svg') format('svg'); 
-  font-weight: normal; 
-  font-style: normal;
-  }
-
-@font-face {
   font-family: 'Victor Mono';
   src: url('/fonts/VictorMono/VictorMono-Regular.eot'); 
   src: url('/fonts/VictorMono/VictorMono-Regular.eot?#iefix') format('embedded-opentype'),
@@ -94,6 +82,8 @@
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
   --ifm-navbar-link-color: #dc8a78;
   --ifm-navbar-link-hover-color: #fe640b;
+  --tag-font: #1e66f5;
+  --tag-background: rgba(138,173,244,0.15);
   --ifm-font-family-base: 'Comfortaa', sans-serif;
   --ifm-font-family-monospace: 'Victor Mono', 'Courier New', monospace;
 }
@@ -138,6 +128,8 @@ html[data-theme='dark'] {
   --ifm-color-danger-contrast-background: rgb(226, 207, 208);
   --ifm-navbar-link-color: #f4dbd6;
   --ifm-navbar-link-hover-color: #f5a97f;
+  --tag-font: #8aadf4;
+  --tag-background: rgba(138,173,244,0.15);
 }
 
 /* Footer Styling */
@@ -337,4 +329,10 @@ figcaption {
 .card {
   border: 1px solid var(--ifm-color-secondary);
   margin-bottom: 10px;
+}
+
+li [class^="tag"] {
+  color: var(--tag-font);
+  background: var(--tag-background);
+  border: 0px;
 }
