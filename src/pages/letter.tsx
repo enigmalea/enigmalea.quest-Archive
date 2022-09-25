@@ -26,6 +26,10 @@ function Main() {
 				receiving fics and art with your OCS, default characters, or my own OCs.
 				The choice is yours.
 			</p>
+			<p>
+				I'm also never set on any prompts listed in or provided with my sign-up
+				they're only there to help you get started if you're having trouble.
+			</p>
 			<p className="text--center">Happy creating!</p>
 			<p className="text--center">
 				<a href="#likes" className={styles.likes}>
@@ -100,6 +104,16 @@ function Main() {
 					</a>{" "}
 					that fit the theme of the exchange (if any) and that inspires you. I
 					really like visual storytelling and comics if that's more your style.
+				</p>
+
+				<p>
+					I recently started collecting{" "}
+					<a href="https://raindrop.io/enigmalea/art-prompts-27576487/theme=auto">
+						palette challenges and pose references for artists
+					</a>{" "}
+					who are looking for something different as inspiration. My particular
+					faves are noted, but feel free to use any of the palettes or poses to
+					start. 
 				</p>
 
 				<p>
