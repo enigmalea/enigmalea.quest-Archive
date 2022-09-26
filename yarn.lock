@@ -4774,6 +4774,11 @@ leven@^3.1.0:
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
   integrity sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==
 
+lightgallery@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.6.1.tgz#b6ace61cc7b5f0567c1d0b002beeb69b2df01ae9"
+  integrity sha512-Lwcr4uEqzTBP3u7FurJo+kBT2BuNMXgFpP1iCwbS+5uSXHyzApolUwAm9TmQ7lLpTMVPIti5a5wwQNplw769ZQ==
+
 lilconfig@^2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.6.tgz#32a384558bd58af3d4c6e077dd1ad1d397bc69d4"
