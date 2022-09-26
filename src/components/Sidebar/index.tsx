@@ -13,8 +13,12 @@ const LinksList: SidebarItem[] = [
     link: ''
   },
   {
-    title: 'The Vault',
-    link: '/docs/intro'
+    title: 'Vault',
+    link: '/docs/Vault/intro'
+  },
+  {
+    title: 'Dragon Age Resources',
+    link: '/docs/DA/intro'
   },
   {
     title: 'Dragon Age OCs',
