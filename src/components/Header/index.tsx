@@ -1,10 +1,6 @@
-import React from 'react';
-import styles from './styles.module.css';
+import React from "react";
+import styles from "./styles.module.css";
 
 export default function Header() {
-  return (
-    <section className={styles.title}>
-      enigmalea
-    </section>
-  );
+	return <section className={styles.title}>enigmalea</section>;
 }

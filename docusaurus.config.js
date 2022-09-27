@@ -25,13 +25,14 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 				},
 				blog: {
-					blogTitle: 'Update Log',
-					blogDescription: 'See the updates to enigmalea\'s website, random project updates, and various blatherings that don\'t fit on other social media.',
+					blogTitle: "Update Log",
+					blogDescription:
+						"See the updates to enigmalea's website, random project updates, and various blatherings that don't fit on other social media.",
 					showReadingTime: true,
 					feedOptions: {
-						type: 'all',
+						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} enigmalea`,
-					  },
+					},
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -91,23 +92,23 @@ const config = {
 			footer: {
 				links: [
 					{
-						title: ' ',
-							items: [
-								{
-									html: `
+						title: " ",
+						items: [
+							{
+								html: `
 									<img class="pagedoll" title="art by @KiingFluffybuns" src="/img/pagedoll.png"></img>
 									`,
-								},
-							],
+							},
+						],
 					},
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} enigmalea. Built with Docusaurus.`,
 			},
 			colorMode: {
-				defaultMode: 'dark',
+				defaultMode: "dark",
 				disableSwitch: false,
 				respectPrefersColorScheme: true,
-			  },
+			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,

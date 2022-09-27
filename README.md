@@ -1,4 +1,3 @@
-
 <h1 align="center">enigmalea</h1>
 <div align="center">
 
@@ -16,15 +15,26 @@
 
 <br>
 
-## About the Repo ##
-My repository for my personal webpage - a home for my random stuff that doesn't quite fit on any other social media. Part dev log, part portfolio, part fandom blatherings. You can see it live [on neocities](http://enigmalea.neocities.org).
+## About the Repo
 
-## Technology ##
-The website was built using [Docusaurus](https://docusaurus.io) which uses a combination of markdown, React, javascript, html, and css to generate a static site. The site is hosted on [neocities](http://www.neocities.org).
+My repository for my personal webpage - a home for my random stuff that doesn't
+quite fit on any other social media. Part dev log, part portfolio, part fandom
+blatherings. You can see it live [on neocities](http://enigmalea.neocities.org).
 
-## Dev Info ##
-I've dabbled in HTML and CSS on and off for 25+ years for various fandom and hobby pursuits. in February 2021, I woke up one day and decided to make a Discord bot. I haven't really stopped coding since.
+## Technology
 
-Right now, my focus is on learning various languages and technologies through fandom projects - my bot, running exchanges, building communities, and making tools for other fandom enthusiasts to use.
+The website was built using [Docusaurus](https://docusaurus.io) which uses a
+combination of markdown, React, javascript, html, and css to generate a static
+site. The site is hosted on [neocities](http://www.neocities.org).
+
+## Dev Info
+
+I've dabbled in HTML and CSS on and off for 25+ years for various fandom and
+hobby pursuits. in February 2021, I woke up one day and decided to make a
+Discord bot. I haven't really stopped coding since.
+
+Right now, my focus is on learning various languages and technologies through
+fandom projects - my bot, running exchanges, building communities, and making
+tools for other fandom enthusiasts to use.
 
 <a href="#top">Back to top</a>
