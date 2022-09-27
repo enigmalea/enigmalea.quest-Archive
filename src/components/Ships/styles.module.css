@@ -1,31 +1,35 @@
 .nounderline {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .ship {
-  width: 100%;
+	width: 100%;
 }
 
 .page {
-  display: flex !important;
-  justify-content: center;
-  align-items: stretch;
+	display: flex !important;
+	justify-content: center;
+	align-items: stretch;
 }
 
 .main {
-  background-color: var(--container-color);
-  width: 700px;
-  max-width: 95vw;
-  border-radius: var(--ifm-global-radius);
+	background-color: var(--container-color);
+	width: 700px;
+	max-width: 95vw;
+	border-radius: var(--ifm-global-radius);
 }
 
 .stats {
-  font-size: 0.90rem;
+	font-size: 0.9rem;
 }
 
 .preview {
-  width: 325px;
-  max-width: 95vw;
-  padding: 10px;
-  margin: auto;
+	width: 325px;
+	max-width: 95vw;
+	padding: 10px;
+	margin: auto;
+}
+
+div[class*="lg-thumb-item"][class*="active"], div[class*="lg-thumb-item"]:hover {
+	border-color: var(--ifm-pagination-nav-color-hover) !important;
 }

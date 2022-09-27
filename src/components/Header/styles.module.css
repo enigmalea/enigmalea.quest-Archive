@@ -1,23 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 
 .title {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
-  font-family: 'Unica One', cursive;
-  font-size: 5.5rem;
-  background: var(--ifm-color-primary-lightest);
-  background: -webkit-linear-gradient(180deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-darkest) 68%);
-  background: -moz-linear-gradient(180deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-darkest) 68%);
-  background: linear-gradient(180deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-darkest) 68%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1.7;
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+	font-family: "Unica One", cursive;
+	font-size: 5.5rem;
+	background: var(--ifm-color-primary-lightest);
+	background: -webkit-linear-gradient(
+		180deg,
+		var(--ifm-color-primary-lightest) 0%,
+		var(--ifm-color-primary-darkest) 68%
+	);
+	background: -moz-linear-gradient(
+		180deg,
+		var(--ifm-color-primary-lightest) 0%,
+		var(--ifm-color-primary-darkest) 68%
+	);
+	background: linear-gradient(
+		180deg,
+		var(--ifm-color-primary-lightest) 0%,
+		var(--ifm-color-primary-darkest) 68%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 1.7;
 }
 
 @media screen and (max-width: 996px) {
-  .title {
-    font-size: 10vw;
-  }
+	.title {
+		font-size: 10vw;
+	}
 }

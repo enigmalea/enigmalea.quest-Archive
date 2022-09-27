@@ -1,15 +1,12 @@
-import React from "react";
-import clsx from "clsx";
-import LightGallery from "lightgallery/react";
-import styles from "./styles.module.css";
-
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 
+import LightGallery from "lightgallery/react";
+import React from "react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
-
+import styles from "./styles.module.css";
 
 export default function Ships(): JSX.Element {
 	return (
@@ -42,21 +39,30 @@ export default function Ships(): JSX.Element {
 						className={styles.preview}
 					/>
 				</a>
-				<a href="/img/ships/ironlion.png" data-sub-html="<h4>Dragon Age</h4><h3>Iron Lion</h3>">
+				<a
+					href="/img/ships/ironlion.png"
+					data-sub-html="<h4>Dragon Age</h4><h3>Iron Lion</h3>"
+				>
 					<img
 						alt="Dragon Age: Iron Lion"
 						src="/img/ships/ironlion.png"
 						className={styles.preview}
 					/>
 				</a>
-				<a href="/img/ships/brunoabacchio.png" data-sub-html="<h4>Jojo's Bizarre Adventures</h4><h3>Bruno/Abacchio</h3>">
+				<a
+					href="/img/ships/brunoabacchio.png"
+					data-sub-html="<h4>Jojo's Bizarre Adventures</h4><h3>Bruno/Abacchio</h3>"
+				>
 					<img
 						alt="Jojo's Bizarre Adventures: Bruno/Abacchio"
 						src="/img/ships/brunoabacchio.png"
 						className={styles.preview}
 					/>
 				</a>
-				<a href="/img/ships/zukka.png" data-sub-html="<h4>Avatar: The Last Airbender</h4><h3>Zukka</h3>">
+				<a
+					href="/img/ships/zukka.png"
+					data-sub-html="<h4>Avatar: The Last Airbender</h4><h3>Zukka</h3>"
+				>
 					<img
 						alt="Avatar: The Last Airbender: Zukka"
 						src="/img/ships/zukka.png"
