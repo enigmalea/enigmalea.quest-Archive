@@ -77,6 +77,12 @@ h3.dnw {
   border-bottom: 1px solid  var(--ifm-color-danger);
 }
 
+h4.dnw {
+  color: var(--ifm-color-danger);
+  padding-bottom: .5rem;
+  text-align:center;
+}
+
 a.cdnw,
 h2.cdnw,
 .cdnw p strong {
@@ -87,6 +93,20 @@ h3.cdnw {
   color: var(--ifm-color-warning);
   padding-bottom: .5rem;
   border-bottom: 1px solid  var(--ifm-color-warning);
+}
+
+details.an {
+  background-color: var(--ifm-code-background);
+  padding: var(--ifm-pre-padding);
+  font-size: smaller;
+}
+
+summary.an {
+  font-size: larger;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
 }
 
 @media screen and (max-width: 995px) {

@@ -60,7 +60,7 @@
   --ifm-font-color-base: #4c4f69;
   --ifm-blockquote-color: #6c6f85;
   --header-color: #5c5f77;
-  --ifm-code-background: #e6e9ef;
+  --ifm-code-background: #dce0e8;
   --ifm-link-color: #dc8a78;
   --ifm-link-hover-color: #dc8a78;
   --ifm-color-emphasis-300: #9ca0b0;
@@ -98,13 +98,13 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
   --ifm-background-color: #24273a;
-  --container-color: #282a36;
+  --container-color: #363a4f;
   --ifm-background-surface-color: var(--container-color);
   --ifm-navbar-background-color: #24273a;
   --ifm-navbar-shadow: 1px 1px 0px #6e738d;
   --ifm-font-color-base: #EEEEEE;
   --ifm-blockquote-color: #a5adcb;
-  --ifm-code-background: #282a36;
+  --ifm-code-background: #494d64;
   --ifm-link-color: #f4dbd6;
   --ifm-link-hover-color: #f4dbd6;
   --header-color: #b8c0e0;
@@ -335,4 +335,12 @@ li [class^="tag"] {
   color: var(--tag-font);
   background: var(--tag-background);
   border: 0px;
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
