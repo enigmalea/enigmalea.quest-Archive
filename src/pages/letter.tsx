@@ -1,11 +1,12 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.css";
+import "react-spoiler-tag/dist/index.css";
+
 import Header from "@site/src/components/Header";
+import Layout from "@theme/Layout";
+import React from "react";
 import Sidebar from "@site/src/components/Sidebar";
 import { Spoiler } from "react-spoiler-tag";
-import "react-spoiler-tag/dist/index.css";
+import styles from "./index.module.css";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 function Main() {
 	return (
