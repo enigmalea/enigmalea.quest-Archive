@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+slug: /opensource
 ---
 
-# Cool Open Source Projects
+# Open Source Recs
 
 - [Obsidian.md](/docs/Vault/opensource/obsidian/intro)
   - Personal wiki solution

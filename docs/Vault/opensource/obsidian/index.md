@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+slug: /obsidian
 ---
 
 # Obsidian

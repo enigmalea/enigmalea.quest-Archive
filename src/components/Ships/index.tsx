@@ -18,7 +18,7 @@ export default function Ships(): JSX.Element {
 			</p>
 			<p>
 				<small>
-					*This is a joke, but robinboob isn't. Check it out to get your own
+					*This is a joke, but Robinboob isn't. Check it out to get your own
 					ship certificates and support an effort to make the internet a better
 					place for fandom.
 				</small>

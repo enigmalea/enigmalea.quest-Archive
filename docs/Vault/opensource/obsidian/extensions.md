@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Themes, Extensions, & Snippets
 
 Obsidian is highly customizable. Each vault you create is it's own environment
