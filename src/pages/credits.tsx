@@ -1,9 +1,9 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.css";
 import Header from "@site/src/components/Header";
+import Layout from "@theme/Layout";
+import React from "react";
 import Sidebar from "@site/src/components/Sidebar";
+import styles from "./index.module.css";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 function Main() {
 	return (
