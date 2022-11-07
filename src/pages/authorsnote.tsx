@@ -31,6 +31,10 @@ function Main() {
 				much fanfic as they possibly can. We welcome all readers, writers, and
 				betas to join us!
 			</p>
+			<p>
+				We also welcome fanartists to join us for prompts, events, and
+				inspiration.
+			</p>
 
 			<h2>Other Social Media</h2>
 			<p>
@@ -121,10 +125,11 @@ function Main() {
 					<p>
 						<strong>Smut/Kinks:</strong>{" "}
 						<Spoiler
-							text="BDSM, edging, restraints, blindfolds, collars, nipple play, anal play, pegging,
-        frottage/outercourse, intercrural sex, oral sex, deep throating, face fucking, biting/marking, rough sex, praise
-        kinks, impact play, shibari, temp play, double penetration, spit-roasting, breath play, semi-public sex,
-        voyeurism/exhibitionism, sexting/cybersex/phone sex, multiple orgasms, power bottoms/bottom Doms, after care."
+							text="noncon (consensual non-consent okay), dubcon with alcohol/drug use (i.e. they get drunk
+            and have sex without consent being established ahead of time. dub-con due to secrets/hidden identities is
+            fine.), adult/minor, fisting, bodily waste products (blood play is fine), sounding, incest, humiliation
+            (impact play or other punishments are okay, but verbal humiliation is not okay), ageplay (DD/lg), raceplay,
+            A/B/O (knotting okay), tentacles, other monsters than those in my likes, oviposition, vore, bestiality"
 							hiddenColor="var(--ifm-font-color-base)"
 							revealedColor="transparent"
 						/>
