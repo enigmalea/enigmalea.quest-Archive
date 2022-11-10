@@ -26,8 +26,8 @@ function Main() {
 				</li>
 				<li>
 					Hosted by{" "}
-					<a href="https://neocities.org" target="_blank">
-						neocities.org
+					<a href="https://www.netlify.com" target="_blank">
+						netlify
 					</a>
 					.
 				</li>
