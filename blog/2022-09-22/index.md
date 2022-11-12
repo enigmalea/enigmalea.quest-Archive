@@ -1,6 +1,6 @@
 ---
 slug: update-log-3
-title: Update Log 3
+title: Theme Changes
 authors: enig
 tags: [site design, color scheme]
 ---
@@ -12,6 +12,8 @@ themes (one light and three dark). I liked the pastels so much, I had to use
 them for my website theme.
 
 The old color schemes below are being retired.
+
+<!--truncate-->
 
 <figure>
 
