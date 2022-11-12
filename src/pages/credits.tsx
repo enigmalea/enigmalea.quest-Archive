@@ -1,7 +1,6 @@
 import Header from "@site/src/components/Header";
 import Layout from "@theme/Layout";
 import React from "react";
-import Sidebar from "@site/src/components/Sidebar";
 import styles from "./index.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
@@ -26,8 +25,8 @@ function Main() {
 				</li>
 				<li>
 					Hosted by{" "}
-					<a href="https://neocities.org" target="_blank">
-						neocities.org
+					<a href="https://netlify.com" target="_blank">
+						netlify.com
 					</a>
 					.
 				</li>
@@ -71,7 +70,7 @@ function Main() {
 					<a href="https://rubjo.github.io/victor-mono/" target="_blank">
 						Victor Mono
 					</a>{" "}
-					for monospace/code text.
+					for header, monospace, and code text.
 				</li>
 				<li>
 					<a href="https://fontawesome.com">Font Awesome</a> for non-unicode
@@ -88,13 +87,8 @@ function Main() {
 			<h2>Art</h2>
 			<ul className={styles.list}>
 				<li>
-					<a href="https://twitter.com/enigmaleaDA/status/1536787197231255555?s=20&t=KznHSdLRPlEQLOkc7Sv6vg">
-						Mascot
-					</a>{" "}
-					by{" "}
-					<a href="https://twitter.com/KiingFluffybuns" className="twitter">
-						KiingFluffybuns
-					</a>
+					Mascot by{" "}
+					<a href="https://ko-fi.com/KiingFluffybuns">KiingFluffybuns</a>
 				</li>
 			</ul>
 		</div>
@@ -104,10 +98,12 @@ function Main() {
 export default function Home(): JSX.Element {
 	const { siteConfig } = useDocusaurusContext();
 	return (
-		<Layout description="Credits and assets used in making this site.">
+		<Layout
+			title={`credits`}
+			description="Credits and assets used in making this site."
+		>
 			<Header />
 			<main className={styles.page}>
-				<Sidebar />
 				<Main />
 			</main>
 		</Layout>

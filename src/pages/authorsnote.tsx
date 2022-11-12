@@ -1,7 +1,6 @@
 import Header from "@site/src/components/Header";
 import Layout from "@theme/Layout";
 import React from "react";
-import Sidebar from "@site/src/components/Sidebar";
 import { Spoiler } from "react-spoiler-tag";
 import styles from "./index.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -105,6 +104,26 @@ function Main() {
 				I reserve the right to refuse any prompt which makes me uncomfortable.
 			</h4>
 			<p>
+				Expicit prompts are posted directly to AO3, pillowfort, and dreamwidth
+				only; non-explicit prompts are crossposted in full as long as the fic is
+				under 1,000 words.
+			</p>
+			<h3>What I Write</h3>
+			<ul className={styles.list}>
+				<li>
+					<strong>Fandoms:</strong> Dragon Age! I could also write for:
+					Castlevania (Netflix), Our Flag Means Death, Torchwood, and Doctor
+					Who.
+				</li>
+				<li>
+					<strong>Ratings:</strong> Any
+				</li>
+				<li>
+					<strong>Ships:</strong> Primarily slash or het for Explicit, but I'm
+					not opposed to attempting explicit femslash.
+				</li>
+			</ul>
+			<p>
 				<details className={styles.an}>
 					<summary className={styles.an}>Absolutely No</summary>
 					<p>
@@ -167,11 +186,6 @@ function Main() {
 				Anon is always on so you can prompt me even if you don't have a tumblr
 				account.
 			</p>
-			<p>
-				Expicit prompts are posted directly to AO3, pillowfort, and dreamwidth
-				only; non-explicit prompts are crossposted in full as long as the fic is
-				under 1,000 words.
-			</p>
 		</div>
 	);
 }
@@ -185,7 +199,6 @@ export default function Home(): JSX.Element {
 		>
 			<Header />
 			<main className={styles.page}>
-				<Sidebar />
 				<Main />
 			</main>
 		</Layout>

@@ -3,7 +3,6 @@ import "react-spoiler-tag/dist/index.css";
 import Header from "@site/src/components/Header";
 import Layout from "@theme/Layout";
 import React from "react";
-import Sidebar from "@site/src/components/Sidebar";
 import { Spoiler } from "react-spoiler-tag";
 import styles from "./index.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -114,7 +113,7 @@ function Main() {
 					</a>{" "}
 					who are looking for something different as inspiration. My particular
 					faves are noted, but feel free to use any of the palettes or poses to
-					start. 
+					start.
 				</p>
 
 				<p>
@@ -224,10 +223,12 @@ function Main() {
 export default function Home(): JSX.Element {
 	const { siteConfig } = useDocusaurusContext();
 	return (
-		<Layout description="enigmalea's Dear Creator letter for fanwork exchanges.">
+		<Layout
+			title={`exchange letter`}
+			description="enigmalea's Dear Creator letter for fanwork exchanges."
+		>
 			<Header />
 			<main className={styles.page}>
-				<Sidebar />
 				<Main />
 			</main>
 		</Layout>
