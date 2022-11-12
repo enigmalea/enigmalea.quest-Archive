@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "enigmalea",
 	tagline: "Where Shit Gets Weird",
-	url: "https://www.enigmalea.quest",
+	url: "http://www.enigmalea.quest",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",

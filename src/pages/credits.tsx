@@ -26,7 +26,7 @@ function Main() {
 				<li>
 					Hosted by{" "}
 					<a href="https://netlify.com" target="_blank">
-						netlify.com
+						netlify
 					</a>
 					.
 				</li>
