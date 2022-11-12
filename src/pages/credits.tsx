@@ -38,7 +38,8 @@ function Main() {
 					<a href="https://github.com/catppuccin/catppuccin" target="_blank">
 						Catpuccin
 					</a>
-					. Using colors from Latte for light mode and Macchiato for dark mode.
+					. I'm using colors from Latte for light mode and Macchiato for dark
+					mode.
 				</li>
 			</ul>
 			<h2>Fonts</h2>
