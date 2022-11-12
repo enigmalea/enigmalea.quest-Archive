@@ -4,8 +4,7 @@ slug: /opensource
 
 # Open Source Recs
 
-- [Obsidian.md](/docs/Vault/opensource/obsidian/intro)
-  - Personal wiki solution
+- [Obsidian.md](../docs/obsidian)
 - [Calibre](https://calibre-ebook.com)
   - eBook library and management system
 - [Dracula Dark Theme](https://draculatheme.com)
