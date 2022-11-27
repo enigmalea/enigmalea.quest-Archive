@@ -1,4 +1,5 @@
 ---
+label: Obsidian
 slug: /obsidian
 ---
 
