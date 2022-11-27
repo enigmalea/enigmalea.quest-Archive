@@ -1,4 +1,5 @@
 ---
+label: Open Source Recs
 slug: /opensource
 ---
 

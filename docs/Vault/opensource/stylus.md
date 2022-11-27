@@ -1,3 +1,7 @@
+---
+label: Stylus
+---
+
 # Stylus
 
 Stylus is an open-source fork of Stylish for Chrome, also compatible with
