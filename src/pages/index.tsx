@@ -27,7 +27,7 @@ function Main() {
 				</li>
 				<li>
 					<strong>Dragon Age OCs:</strong> my{" "}
-					<a href="http://www.toyhou.se">toyhou.se</a> folder for all my Dragon
+					<a href="https://www.toyhou.se">toyhou.se</a> folder for all my Dragon
 					Age characters (still massively under construction like everything
 					else in my life).
 				</li>

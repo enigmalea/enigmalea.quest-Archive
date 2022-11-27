@@ -3,7 +3,7 @@
 
 ![Github](https://img.shields.io/github/license/enigmalea/enigmalea)
 ![Last Commit](https://img.shields.io/github/last-commit/enigmalea/enigmalea)
-[![Website Status](https://img.shields.io:/website?&up_message=online&url=https%3A%2F%2Fenigmalea.neocities.org)](http://enigmalea.neocities.org)<br />
+[![Website Status](https://img.shields.io:/website?&up_message=online&url=https%3A%2F%2Fwww.enigmalea.quest)](https://www.enigmalea.quest)<br />
 [![Follow @dapolyshipping on twitter](https://img.shields.io/twitter/follow/enigmaleaDA?style=flat&label=Twitter&logo=twitter&logoColor=ffffff&color=1DA1F2)](https://twitter.com/enigmaleaDA)
 [![tumblr](https://img.shields.io/badge/enigmalea-%2336465D.svg?&style=flat&logo=Tumblr&logoColor=white)](https://enigmalea.tumblr.com)
 
@@ -19,13 +19,13 @@
 
 My repository for my personal webpage - a home for my random stuff that doesn't
 quite fit on any other social media. Part dev log, part portfolio, part fandom
-blatherings. You can see it live [on neocities](http://enigmalea.neocities.org).
+blatherings. You can see it live at [enigmalea.quest](https://www.enigmalea.quest).
 
 ## Technology
 
 The website was built using [Docusaurus](https://docusaurus.io) which uses a
 combination of markdown, React, javascript, html, and css to generate a static
-site. The site is hosted on [neocities](http://www.neocities.org).
+site. The site is hosted on [netlify](https://www.netlify.com).
 
 ## Dev Info
 

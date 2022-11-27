@@ -11,7 +11,7 @@ function Main() {
 			<h2>Basics</h2>
 			<ul className={styles.list}>
 				<li>
-					Built using <a href="http://www.docusaurus.io">Docusaurus</a>.
+					Built using <a href="https://www.docusaurus.io">Docusaurus</a>.
 					<p className={styles.explain}>
 						<em>But enig,</em> you say,{" "}
 						<em>Docusaurus isn't for personal webpages.</em> Not only do I say,{" "}
@@ -79,7 +79,7 @@ function Main() {
 				</li>
 				<li>
 					<strong>AO3 Font</strong> for AO3 logo by my awesome bff{" "}
-					<a href="http://thefoxinboots.tumblr.com" target="_blank">
+					<a href="https://thefoxinboots.tumblr.com" target="_blank">
 						Fox
 					</a>
 					.

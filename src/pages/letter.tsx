@@ -16,7 +16,7 @@ function Main() {
 				feel for things I like and don't like. This is my general info, but more
 				specifics of what I'm looking for are usually included with my prompts
 				during sign-up. If you have questions please feel free to send me{" "}
-				<a href="http://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>.
+				<a href="https://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>.
 			</p>
 			<p>
 				You can also find the link to my tumblr, twitter, and AO3 in the
