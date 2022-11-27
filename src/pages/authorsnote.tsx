@@ -53,7 +53,7 @@ function Main() {
 					(click subscribe)
 				</li>
 				<li>
-					<a href="http://enigmalea.tumblr.com" rel="nofollow">
+					<a href="https://enigmalea.tumblr.com" rel="nofollow">
 						tumblr
 					</a>
 				</li>
