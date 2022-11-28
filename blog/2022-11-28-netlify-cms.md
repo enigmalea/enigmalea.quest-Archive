@@ -2,7 +2,7 @@
 title: Netlify CMS
 slug: 2022-11-27
 tags:
-  - dev_things
+  - technical
 authors: enig
 ---
 T﻿his is my first post from [Netlify CMS](https://www.netlifycms.org). Initial set-up took me a couple of hours yesterday, but I'm still tinkering with settings and such to get it to where I want it. For visitors, nothing has changed much. For me, I'm hoping this gives me some incentive to add content more frequently.
