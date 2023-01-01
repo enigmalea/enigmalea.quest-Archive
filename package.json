@@ -1,7 +1,8 @@
 {
 	"name": "enigmalea",
-	"version": "0.0.0",
+	"version": "2.2.0",
 	"private": true,
+	"license": "MIT",
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
