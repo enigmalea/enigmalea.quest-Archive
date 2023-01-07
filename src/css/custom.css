@@ -328,11 +328,6 @@ figcaption {
 	letter-spacing: 0.1rem;
 }
 
-.card {
-	border: 1px solid var(--ifm-color-secondary);
-	margin-bottom: 10px;
-}
-
 li [class^="tag"] {
 	color: var(--tag-font);
 	background: var(--tag-background);

@@ -12,8 +12,8 @@ const LinksList: SidebarItem[] = [
     link: ''
   },
   {
-    title: 'Vault',
-    link: '/docs/Vault/intro'
+    title: 'Garden',
+    link: '/docs/Garden/intro'
   },
   {
     title: 'Dragon Age Resources',

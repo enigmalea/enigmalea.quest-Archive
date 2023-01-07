@@ -1,0 +1,24 @@
+---
+sidebar_position: 4
+---
+
+# How to Post a Translation
+
+1. Create a `New Work`.
+
+2. Under *Associations* click the `This work is a remix, a translation, a podfic, or was inspired by another work` checkbox.
+
+3. Enter the URL for the work on AO3 and select the language in the dropdown box.
+   - If the work is not on AO3, list the URL, Title, and Author name.
+![](/img/docs/ao3/translation.png)
+
+4. Finish Posting. An email will be sent to the creator so they can confirm the link.
+
+## Confirm the Link
+
+1. From the email received click the link provided or go to your AO3 Dashboard and click *Related Works*.
+
+2. Click Confirm.
+
+3. AO3 automatically adds a Note to each work linking the two!
+![](/img/docs/ao3/translation_note.png)
