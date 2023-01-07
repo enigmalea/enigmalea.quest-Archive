@@ -341,3 +341,30 @@ pre {
 	white-space: -o-pre-wrap; /* Opera 7 */
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
+
+/* Styling for content warnings in masto backup */
+.alert, .alert--info {
+	background: none !important;
+}
+
+[class*="details"] {
+	--docusaurus-details-decoration-color: var(--ifm-color-danger) !important;
+	border: 1px solid var(--ifm-color-danger) !important;
+}
+
+.contentwarning::before{
+	font-family: 'VictorMonoItalic';
+	color: var(--ifm-color-danger);
+	font-weight: bold;
+	content: 'content warning:';
+}
+
+.hashtag {
+	color: var(--tag-font);
+}
+
+.emoji {
+	height: 25px !important;
+	width: auto;
+	vertical-align: bottom;
+}

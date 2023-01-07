@@ -41,6 +41,20 @@ const config = {
 		],
 	],
 
+	plugins: [
+		[
+			"@docusaurus/plugin-content-blog",
+			{
+				id: "masto",
+				routeBasePath: "masto",
+				path: "./masto",
+				blogTitle: "Mastodon Back-up",
+				showReadingTime: false,
+				blogSidebarCount: 0,
+			},
+		],
+	],
+
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
