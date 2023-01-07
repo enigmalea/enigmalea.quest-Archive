@@ -65,8 +65,8 @@ const config = {
 						items: [
 							{
 								type: "doc",
-								docId: "Vault/intro",
-								label: "Vault",
+								docId: "Garden/intro",
+								label: "Digital Garden",
 							},
 							{
 								type: "doc",

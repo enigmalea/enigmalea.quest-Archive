@@ -46,9 +46,9 @@ collections:
     - { name: body, label: Body, widget: markdown }
     - { name: slug, label: Slug, widget: string }
 
-- name: vault
-  label: "Vault"
-  folder: "docs/Vault"
+- name: garden
+  label: "Digital Garden"
+  folder: "docs/Garden"
   description: "Wiki/knowledge bank pages."
   identifier_field: "label"
   extension: md
