@@ -1,9 +1,4 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
+/* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap");
 @import "/fontawesome/css/all.css";
 
@@ -130,26 +125,51 @@ html[data-theme="dark"] {
 	--tag-background: rgba(138, 173, 244, 0.15);
 }
 
+/* Scrollbars */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+::-webkit-scrollbar-thumb {
+	background: var(--ifm-link-color);
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: var(--ifm-link-hover-color);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--ifm-background-color);
+	border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
 /* Footer Styling */
 .footer {
 	font-family: var(--ifm-font-family-monospace);
 	background-color: transparent;
 }
 
+.pagedoll {
+	width: 150px;
+	height: auto;
+	max-width: 20%;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 3;
+}
+
 /* Removes Docusaurus external link icon */
 [class*="iconExternalLink"] {
 	display: none;
-}
-
-.docusaurus-highlight-code-line {
-	background-color: rgba(0, 0, 0, 0.1);
-	display: block;
-	margin: 0 calc(-1 * var(--ifm-pre-padding));
-	padding: 0 var(--ifm-pre-padding);
-}
-
-[data-theme="dark"] .docusaurus-highlight-code-line {
-	background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Sets color for Light/Dark Color Icon */
@@ -251,30 +271,16 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
 	color: var(--ifm-link-color);
 }
 
-/* Scrollbars */
-::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
-}
-::-webkit-scrollbar-button {
-	width: 0px;
-	height: 0px;
-}
-::-webkit-scrollbar-thumb {
-	background: var(--ifm-link-color);
-	border-radius: 50px;
-}
-::-webkit-scrollbar-thumb:hover {
-	background: var(--ifm-link-hover-color);
+/* Adjust code block styling */
+.docusaurus-highlight-code-line {
+	background-color: rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
 }
 
-::-webkit-scrollbar-track {
-	background: var(--ifm-background-color);
-	border-radius: 50px;
-}
-
-::-webkit-scrollbar-corner {
-	background: transparent;
+[data-theme="dark"] .docusaurus-highlight-code-line {
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Text Stylings */
@@ -310,16 +316,6 @@ html[data-theme="dark"] em {
 	color: var(--ifm-color-primary-lightest);
 }
 
-.pagedoll {
-	width: 150px;
-	height: auto;
-	max-width: 20%;
-	position: fixed;
-	bottom: 5px;
-	right: 5px;
-	z-index: 3;
-}
-
 figcaption {
 	font-size: 0.95rem;
 	font-style: italic;
@@ -328,16 +324,55 @@ figcaption {
 	letter-spacing: 0.1rem;
 }
 
-li [class^="tag"] {
-	color: var(--tag-font);
-	background: var(--tag-background);
-	border: 0px;
-}
-
 pre {
 	white-space: pre-wrap; /* Since CSS 2.1 */
 	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
 	white-space: -pre-wrap; /* Opera 4-6 */
 	white-space: -o-pre-wrap; /* Opera 7 */
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+blockquote {
+	display: block;
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: var(--ifm-link-hover-color);
+	padding: 1.5em 0 1.5em;
+	margin: 1.5em 0;
+	position: relative;
+}
+
+blockquote::before {
+	content: "\201C";
+	position: absolute;
+	top: -0.5rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: var(--ifm-background-color);
+	width: 4rem;
+	height: 3rem;
+	font: 6em/1.08em "Victor Mono", sans-serif;
+	color: var(--ifm-link-hover-color);
+	text-align: center;
+}
+
+.inlineNote,
+.subNote {
+	font-family: var(--ifm-font-family-monospace);
+	color: var(--ifm-color-secondary);
+	font-weight: normal;
+}
+
+.inlineNote::before {
+	font-family: var(--ifm-font-family-monospace);
+	color: var(--ifm-color-secondary);
+	font-weight: bold;
+	content: "NOTE:";
+}
+
+/* Styles tags for blog */
+li [class^="tag"] {
+	color: var(--tag-font);
+	background: var(--tag-background);
+	border: 0px;
 }
