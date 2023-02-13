@@ -50,6 +50,16 @@ export default function Ships(): JSX.Element {
 					/>
 				</a>
 				<a
+					href="/img/ships/adoribull.png"
+					data-sub-html="<h4>Dragon Age</h4><h3>Adoribull</h3>"
+				>
+					<img
+						alt="Dragon Age: Adoribull"
+						src="/img/ships/adoribull.png"
+						className={styles.preview}
+					/>
+				</a>
+				<a
 					href="/img/ships/brunoabacchio.png"
 					data-sub-html="<h4>Jojo's Bizarre Adventures</h4><h3>Bruno/Abacchio</h3>"
 				>
