@@ -14,6 +14,9 @@ const config = {
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.png",
 	titleDelimiter: "☆",
+	plugins: [
+		require.resolve('docusaurus-plugin-image-zoom')
+	  ],
 
 	presets: [
 		[
@@ -181,6 +184,13 @@ const config = {
 				{ name: "twitter:creator", content: "enigmaleaDA" },
 				{ name: "og:image", content: "/img/favicon.png" },
 			],
+			zoom: {
+				selector: '.markdown img',
+				background: {
+				  light: 'rgba(239, 241, 245, 0.75)',
+				  dark: 'rgba(36, 39, 58, 0.75)'
+				},
+			},
 		}),
 };
 

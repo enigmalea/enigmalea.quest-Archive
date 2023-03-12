@@ -305,15 +305,13 @@ h6 {
 strong,
 b {
 	letter-spacing: 0.2rem;
+	color: var(--ifm-color-primary);
 }
 
 em {
 	font-family: "VictorMonoItalic", cursive;
 	font-style: italic;
-}
-
-html[data-theme="dark"] em {
-	color: var(--ifm-color-primary-lightest);
+	color: var(--ifm-color-secondary);
 }
 
 figcaption {
@@ -375,4 +373,12 @@ li [class^="tag"] {
 	color: var(--tag-font);
 	background: var(--tag-background);
 	border: 0px;
+}
+
+/* Sets max image width and centers images */
+img {
+	max-width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

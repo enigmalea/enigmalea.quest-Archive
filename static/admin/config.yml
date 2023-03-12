@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: main 
+  branch: main
   repo: enigmalea/enigmalea.quest
 
 # These lines should *not* be indented
@@ -9,56 +9,105 @@ public_folder: "/img/" # The src attribute for uploaded media will begin with /i
 
 publish_mode: editorial_workflow
 site_url: https://www.enigmalea.quest
+display_url: https://enigmalea.quest
 
 collections:
-- name: log
-  label: "update log"
-  folder: blog
-  description: "Site update log."
-  identifier_field: title
-  extension: mdx
-  format: frontmatter
-  widget: "list"
-  create: true
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields:
-    - { name: title, label: Title, widget: string }
-    - { name: body, label: Body, widget: markdown }
-    - { name: slug, label: Slug, widget: string }
-    - label: "Tags"
-      name: "tags"
-      widget: "list"
-    - label: "Authors"
-      name: "authors"
-      widget: hidden
-      default: "enig"
+  - name: log
+    label: "Update Log"
+    folder: blog
+    description: "Site update log."
+    identifier_field: title
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Authors"
+        name: "authors"
+        widget: hidden
+        default: "enig"
 
-- name: dragonage
-  label: "DA resources"
-  folder: "docs/DA"
-  description: "Dragon Age resources pages."
-  identifier_field: "label"
-  extension: mdx
-  format: frontmatter
-  widget: "list"
-  create: true
-  slug: "{{slug}}" # Filename template, e.g., title.md
-  fields:
-    - { name: label, label: Title, widget: string }
-    - { name: body, label: Body, widget: markdown }
-    - { name: slug, label: Slug, widget: string }
+  - name: dragonage
+    label: "DA resources"
+    folder: "docs/DA"
+    create: true
+    description: "Dragon Age resources pages."
+    identifier_field: label
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { name: label, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
 
-- name: garden
-  label: "Digital Garden"
-  folder: "docs/Garden"
-  description: "Wiki/knowledge bank pages."
-  identifier_field: "label"
-  extension: mdx
-  format: frontmatter
-  widget: "list"
-  create: true
-  slug: "{{slug}}" # Filename template, e.g., title.md
-  fields:
-    - { name: label, label: Title, widget: string }
-    - { name: body, label: Body, widget: markdown }
-    - { name: slug, label: Slug, widget: string }
+  - name: garden
+    label: "Digital Garden"
+    folder: docs/Garden
+    description: "Wiki/knowledge bank pages."
+    identifier_field: label
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { name: label, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+
+  - name: ao3
+    label: "AO3 Tutorials & more"
+    folder: docs/Garden/ao3
+    description: "AO3 Tutorials"
+    identifier_field: label
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { name: label, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+
+  - name: obsidian
+    label: "Obsidian"
+    folder: docs/Garden/obsidian
+    description: Info about Obsidian and the extensions and themes I use
+    identifier_field: label
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { name: label, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+
+  - name: open_source
+    label: "Open Source"
+    folder: docs/Garden/opensource
+    description: Open source projects, themes, and extensions that I recommend.
+    identifier_field: label
+    extension: mdx
+    format: yaml-frontmatter
+    widget: "list"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields:
+      - { name: label, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+
+
+

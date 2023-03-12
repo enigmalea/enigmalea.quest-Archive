@@ -28,6 +28,7 @@
 	max-width: 95vw;
 	padding: 10px;
 	margin: auto;
+	display: unset;
 }
 
 div[class*="lg-thumb-item"][class*="active"], div[class*="lg-thumb-item"]:hover {
