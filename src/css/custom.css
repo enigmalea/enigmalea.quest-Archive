@@ -52,33 +52,18 @@
 	--ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
 	--ifm-font-color-base: #4c4f69;
 	--ifm-blockquote-color: #6c6f85;
-	--header-color: #5c5f77;
-	--ifm-code-background: #dce0e8;
+	--header-color: #1e66f5;
 	--ifm-link-color: #dc8a78;
 	--ifm-link-hover-color: #dc8a78;
 	--ifm-color-emphasis-300: #9ca0b0;
 	--ifm-pagination-nav-color-hover: #fe640b;
-	--ifm-color-secondary: #8c8fa1;
-	--ifm-color-success: #40a02b;
-	--ifm-color-info: #179299;
-	--ifm-color-warning: #fe640b;
-	--ifm-color-danger: #d20f39;
-	--ifm-color-secondary-dark: #8c8fa1;
-	--ifm-color-success-dark: #40a02b;
-	--ifm-color-info-dark: #179299;
-	--ifm-color-warning-dark: #fe640b;
-	--ifm-color-danger-dark: #d20f39;
-	--ifm-color-secondary-contrast-background: rgb(231, 231, 231);
-	--ifm-color-success-contrast-background: rgb(212, 226, 212);
-	--ifm-color-info-contrast-background: rgb(206, 217, 221);
-	--ifm-color-warning-contrast-background: rgb(226, 219, 202);
-	--ifm-color-danger-contrast-background: rgb(226, 207, 208);
 	--ifm-navbar-link-color: #dc8a78;
 	--ifm-navbar-link-hover-color: #fe640b;
 	--tag-font: #1e66f5;
 	--tag-background: rgba(138, 173, 244, 0.15);
 	--ifm-font-family-base: "Comfortaa", sans-serif;
 	--ifm-font-family-monospace: "Victor Mono", "Courier New", monospace;
+	--ifm-font-family-monospace-italic: "VictorMonoItalic", "Victor Mono", "Courier New", monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -95,30 +80,14 @@ html[data-theme="dark"] {
 	--ifm-background-surface-color: var(--container-color);
 	--ifm-navbar-background-color: #24273a;
 	--ifm-navbar-shadow: 1px 1px 0px #6e738d;
-	--ifm-font-color-base: #eeeeee;
+	--ifm-font-color-base: #cad3f5;
 	--ifm-blockquote-color: #a5adcb;
-	--ifm-code-background: #494d64;
 	--ifm-link-color: #f4dbd6;
 	--ifm-link-hover-color: #f4dbd6;
-	--header-color: #b8c0e0;
+	--header-color: #8aadf4;
 	--ifm-color-emphasis-300: #6e738d;
 	--ifm-toc-border-color: #6e738d;
 	--ifm-pagination-nav-color-hover: #f5a97f;
-	--ifm-color-secondary: #8087a2;
-	--ifm-color-success: #a6da95;
-	--ifm-color-info: #8bd5ca;
-	--ifm-color-warning: #f5a97f;
-	--ifm-color-danger: #ed8796;
-	--ifm-color-secondary-dark: #8087a2;
-	--ifm-color-success-dark: #a6da95;
-	--ifm-color-info-dark: #8bd5ca;
-	--ifm-color-warning-dark: #f5a97f;
-	--ifm-color-danger-dark: #ed8796;
-	--ifm-color-secondary-contrast-background: rgb(231, 231, 231);
-	--ifm-color-success-contrast-background: rgb(212, 226, 212);
-	--ifm-color-info-contrast-background: rgb(206, 217, 221);
-	--ifm-color-warning-contrast-background: rgb(226, 219, 202);
-	--ifm-color-danger-contrast-background: rgb(226, 207, 208);
 	--ifm-navbar-link-color: #f4dbd6;
 	--ifm-navbar-link-hover-color: #f5a97f;
 	--tag-font: #8aadf4;
@@ -271,18 +240,6 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
 	color: var(--ifm-link-color);
 }
 
-/* Adjust code block styling */
-.docusaurus-highlight-code-line {
-	background-color: rgba(0, 0, 0, 0.1);
-	display: block;
-	margin: 0 calc(-1 * var(--ifm-pre-padding));
-	padding: 0 var(--ifm-pre-padding);
-}
-
-[data-theme="dark"] .docusaurus-highlight-code-line {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
 /* Text Stylings */
 h1,
 h2,
@@ -309,7 +266,7 @@ b {
 }
 
 em {
-	font-family: "VictorMonoItalic", cursive;
+	font-family: var(--ifm-font-family-monospace-italic);
 	font-style: italic;
 	color: var(--ifm-color-secondary);
 }
@@ -381,4 +338,19 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 2px;
+}
+
+/* summary & details styling */
+details {
+	font-family: var(--ifm-font-family-monospace);
+	background: transparent !important;
+	border: none !important;
+	--docusaurus-details-decoration-color: var(--ifm-color-primary) !important;
+}
+
+summary {
+	font-family: var(--ifm-font-family-monospace-italic);
+	font-style: italic;
+	color: var(--tag-font) !important;
 }
