@@ -17,7 +17,7 @@ function Main() {
 			<h2>Where to Find Things</h2>
 			<ul className={styles.list}>
 				<li>
-					<strong>Garden:</strong> a public wiki for all things I find neat -
+					<strong>Digital Garden:</strong> a public wiki for all things I find neat -
 					coding, open source software, diy projects, etc. Added to randomly as
 					I get the urge.
 				</li>

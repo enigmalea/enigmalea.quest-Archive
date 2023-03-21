@@ -8,26 +8,18 @@ slug: /tutorials/extensions
 
 This tutorial focuses on creating an extension request form for your fanworks
 exchange so that people can complete a form to ask for an extension. It also
-provides you with a way to track extensions easier. There's also a small bit of
-**optional** coding which will allow you to send a notification to your Discord
-when a new request is made.
+provides you with a way to track extensions easier.
 
-## Create Accounts
+## Create Airtable Account
 
 To start, you'll need to create two accounts. I recommend that you use google
 login if your mod team shares a gmail account, that way there's no additional
 passwords to remember or share.
 
-1. [Airtable](https://airtable.com/) Airtable is a cloud-based
-   database-spreadsheet hybrid which allows you to leverage the complicated
-   features of a database, with the ease of use of a spreadsheet. If you can
-   handle google sheets, you can handle Airtable!
-
-2. [Pipedream](https://pipedream.com/) Pipedream is an automation service (like
-   IFTTT or Zapier) which has generous limits for how many runs you get on the
-   free plan. It also has fewer limitations if you can code, as it allows direct
-   access to write your own javascript programs to be triggered by APIs. Don't
-   worry if you don't know what that means.
+[Airtable](https://airtable.com/) Airtable is a cloud-based database-spreadsheet
+hybrid which allows you to leverage the complicated features of a database, with
+the ease of use of a spreadsheet. If you can handle google sheets, you can
+handle Airtable!
 
 ## Creating the Base/Table
 
@@ -47,14 +39,18 @@ edit the code.
 
    :::
 
-   ![](https://i.imgur.com/wxg8C18.png)
+   ![](/img/docs/tutorials/extensions/workspace.png)
 
 2. At the top click the "Untitled Base" to change the name to "Extension
    Requests". You can also set the icon and color to your liking.
 
-   ![](https://i.imgur.com/XosAWV3.png) ![](https://i.imgur.com/eBM1S7V.png)
+   ![](/img/docs/tutorials/extensions/basecustomization.png)
 
-3. Rename "Table 1" to "Extensions". ![](https://i.imgur.com/ShvjDbN.png)
+   ![](/img/docs/tutorials/extensions/basename.png)
+
+3. Rename "Table 1" to "Extensions".
+
+   ![](/img/docs/tutorials/extensions/tablename.png))
 
 **🎉 Congrats! You've set up your first base and are ready to customize your
 fields.**
@@ -73,7 +69,7 @@ All bases come pre-populated with four fields. You can edit the four initial
 fields and create three more for a total of seven. In the end you should end up
 with the following fields:
 
-![](https://i.imgur.com/857SiWb.png)
+![](/img/docs/tutorials/extensions/fields.png))
 
 <details><summary>Field Details</summary>
 
@@ -101,17 +97,20 @@ forms of communication, i.e. Twitter username, Dreamwidth username, etc.
 <details><summary>To Edit Existing Fields</summary>
 
 1. Click on the down caret and select "Edit field".
-   ![](https://i.imgur.com/ewToT0J.png)
+
+   ![](/img/docs/tutorials/extensions/editfield.png)
 
 2. Update the name, select a new field type, or change options, as needed.
-   ![](https://i.imgur.com/rDMwsPt.png)
+
+   ![](/img/docs/tutorials/extensions/fieldsettings.png)
 
 </details>
 
 <details><summary>To Add A New Field</summary>
 
 1. Click the large plus at the end of the existing fields.
-   ![](https://i.imgur.com/llSSJvj.png)
+
+   ![](/img/docs/tutorials/extensions/addfield.png)
 
 2. Add the Field Name, select the type, and complete any options that appear.
 
@@ -167,7 +166,7 @@ walk you through a step-by-step set-up, but I will give you some hints and tips!
 - **Set all fields as required.** Because the email and username fields are
   conditional, they are only required if they are displayed!
 
-![](https://i.imgur.com/oS1gTac.png)
+![](/img/docs/tutorials/extensions/extensionform.png)
 
 #### Adding Help Text
 
@@ -176,7 +175,7 @@ You'll notice that the date field has additional information/instructions.
 To add this, click on the field in the form view and complete the "Add some help
 text" section.
 
-![](https://i.imgur.com/ihrZS6G.png)
+![](/img/docs/tutorials/extensions/helptext.png)
 
 #### Making A Field Conditional
 
@@ -184,7 +183,9 @@ Toggle the "Show field only when conditions are met" to **on**.
 
 Set your condition to "When Method of Communication is" and the name of the
 field. For example, for the email field you'd select "When Method of
-Communication is Email" ![](https://i.imgur.com/Nzkj3XG.png)
+Communication is Email".
+
+![](/img/docs/tutorials/extensions/conditionalfield.png)
 
 I recommend you do this for all emails and usernames you request as someone only
 needs to provide you one.
@@ -196,14 +197,15 @@ I turn **off** "Show 'Submit another response' button" and "Show a new blank
 form after 5 seconds" for this form, as people should only be submitting it
 once.
 
-I also turn **on** sending an email as a back-up notification in case Pipedream
-fails for some reason.
+I also turn **on** sending an email as a back-up in case the calendar does not
+sync.
 
 In addition, I do always customize the message shown after submission. Feel free
 to use my wording as a guideline.
 
 ```
-Thank you for requesting an extension. The mods will review your request and get back to you within 24 hours at the latest.
+Thank you for requesting an extension. The mods will review your request and get
+back to you within 24 hours at the latest.
 
 Please keep in mind that your request is not official until you hear from us!
 ```
@@ -214,7 +216,8 @@ At the top you can get a share link for your form. This can be added to any of
 your exchange information just like any other link can. This menu also allows
 you to get code for an iframe embed, or to turn the form off so that it no
 longer can accept responses (a good idea between exchanges).
-![](https://i.imgur.com/X3Gdz6m.png)
+
+![](/img/docs/tutorials/extensions/shareform.png)
 
 </details>
 
@@ -244,7 +247,7 @@ display it!
 
 :::
 
-![](https://i.imgur.com/RNPhano.png)
+![](/img/docs/tutorials/extensions/calendarlabel.png)
 
 #### Filtering By Status
 
@@ -256,72 +259,13 @@ sure that it's been at least approved. Then click "Add condition" and set the
 second condition to "And Status is not Fulfilled" to exclude completed
 extensions.
 
-![](https://i.imgur.com/pptMaMY.png)
+![](/img/docs/tutorials/extensions/calendarfilter.png)
 
 #### Syncing To Your Calendar
 
 To sync to your calendar, click "Share view" on the main toolbar, and then
-select "Sync to an external calendar". ![](https://i.imgur.com/hymlzpI.png)
+select "Sync to an external calendar".
+
+![](/img/docs/tutorials/extensions/calendarsync.png)
 
 </details>
-
-## Using Pipedream For Discord Notifications
-
-1. Once you've signed into Pipedream (once again, for exchange mods, I recommend
-   using the shared gmail if you have one), click the New button on the upper
-   right to create a new workflow.
-
-   ![](https://i.imgur.com/TWXdX8F.png)
-
-2. In the upper left corner, click on "Untitled Workflow" to rename it. I used
-   "Extension Requests", but you can use anything you'd like here.
-
-   ![](https://i.imgur.com/vshS374.png)
-
-3. In the center of your screen there will be a dialogue box asking you to
-   choose a "trigger". For automations, triggers are the events that tell the
-   code to run. In this case, we want it to run when the form for a request is
-   completed or a mod adds one by hand. In other words, we want it to run every
-   time a new entry shows up in our Airtable.
-
-   Select Airtable from the list. <span className="inlineNote">You may have to
-   type "Airtable" in the Search for an app field to get it to show for
-   you.</span>
-
-   ![](https://i.imgur.com/U4Y7uy2.png)
-
-4. From the new dialogue that appears select **New Records**.
-
-   ![](https://i.imgur.com/Leb1swk.png)
-
-5. Click on "Connect an Airtable account" and follow the current instructions to
-   generate an API key, add it to Pipedream, add a nickname (_optional_), and
-   click the Save button.
-
-   ![](https://i.imgur.com/gVkEJpa.png)
-
-6. Complete the following fields:
-
-   - **Timer** - how frequently Pipedream checks your base for new records. If
-     this is the only thing you're using Pipedream for on this account you can
-     go as low as every 10 minutes and not hit your monthly limit. I tend to
-     leave mine at the default 15 minutes.
-   - **Base** - the name of the Base you want to use. If you followed my guide
-     exactly it should be "Extension Requests".
-   - **Table** - the name of the table you want to use. If you followed my guide
-     exactly it should be "Extensions".
-   - **Name** - An internal source name for Pipedream. I use something like
-     "[Exchange] Airtable New Records" so that if I do more than one workflow,
-     I'll be able to manage my sources easier.
-
-   Your completed trigger should look something like this:
-
-   ![](https://i.imgur.com/EZ1mTsW.png)
-
-   Click the **Create source** button.
-
-   :::note
-
-   Don't worry, this trigger can be easily edited at any time if you made a mistake or need to make updates.
-
-   :::
