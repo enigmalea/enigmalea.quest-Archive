@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer/themes/nightOwlLight");
+const darkCodeTheme = require("prism-react-renderer/themes/palenight");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,6 +14,9 @@ const config = {
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.png",
 	titleDelimiter: "☆",
+	plugins: [
+		require.resolve('docusaurus-plugin-image-zoom')
+	  ],
 
 	presets: [
 		[
@@ -181,6 +184,13 @@ const config = {
 				{ name: "twitter:creator", content: "enigmaleaDA" },
 				{ name: "og:image", content: "/img/favicon.png" },
 			],
+			zoom: {
+				selector: '.markdown img',
+				background: {
+				  light: 'rgba(239, 241, 245, 0.75)',
+				  dark: 'rgba(36, 39, 58, 0.75)'
+				},
+			},
 		}),
 };
 

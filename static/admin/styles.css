@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap");
+
+body,
+input,
+.cms-editor-visual > div > div {
+  background-color: #24273a !important;
+  font-family: "Comfortaa", sans-serif !important;
+  color: #eeeeee !important;
+}
+
+p {
+  font-family: "Comfortaa", sans-serif !important;
+  color: #eeeeee !important;
+}
+
+.cms-editor-visual > div > div {
+  border-color: #24273a !important;
+}
+
+[class*="card"],
+[class*="ToolbarContainer"],
+header {
+  background-color: #363a4f !important;
+}
+
+[class*="Description"],
+[class*="ColumnCount"],
+[class*="CardText"] {
+  color: #a5adcb !important;
+  font-family: "Comfortaa", sans-serif !important;
+}
+
+a,
+a:active,
+a:link,
+a:visited,
+a:hover,
+[class*="BackCollection"],
+[class*="BackArrow"],
+svg {
+  color: #f4dbd6 !important;
+}
+
+[class*="button"] {
+  background-color: #24273a !important;
+  color: #f4dbd6 !important;
+}
+
+[class*="AppHeaderButton"] {
+  background-color: unset !important;
+}
+
+[class*="sidebar-active"],
+[class*="TreeNavLink"]:hover,
+[class*="SidebarNavLink"]:hover,
+[class*="ToolbarSectionBackLink"]:hover {
+  background-color: #6e738d !important;
+  border-color: #6e738d !important;
+  text-decoration: underline;
+}
+
+[class*="TreeNavLink"],
+[class*="SidebarNavLink"] {
+  border-color: #6e738d !important;
+}
+
+[class*="ListCardLink"]:hover {
+  background-color: #6e738d !important;
+  text-decoration: underline;
+}
+
+[name="draft"] {
+  background-color: #f5bde6 !important;
+  color: #24273a !important;
+}
+
+[name="pending_review"] {
+  background-color: #eed49f !important;
+  color: #24273a !important;
+}
+
+[name="pending_publish"] {
+  background-color: #a6da95 !important;
+  color: #24273a !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal !important;
+  font-style: normal !important;
+  color: #eeeeee !important;
+}
+
+[class*="StyledModal"] {
+  background-color: #6e738d !important;
+}
+
+[class*="Card"],
+input {
+  border-color: #939ab7 !important;
+}
+
+label {
+  background-color: #939ab7 !important;
+  border-color: #939ab7 !important;
+  color: #24273a !important;
+  font-family: "Comfortaa", sans-serif !important;
+}
+
+[class*="Success"] {
+  color: #a6da95 !important;
+}
+
+iframe {
+  filter: invert(80%) hue-rotate(180deg) brightness(1.5);
+}
