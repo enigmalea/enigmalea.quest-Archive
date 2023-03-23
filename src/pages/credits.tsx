@@ -106,11 +106,6 @@ function Main() {
           AO3 Explicit button from{" "}
           <a href="https://dldr.xyz/web">bloodwrites</a>
         </li>
-		<li>
-          Toe Beans Now! button found on {" "}
-          <a href="https://capstasher.neocities.org/88x31collection-page1">The Largest 88x31 Collection on the Internet</a>
-		  <p className={[styles.explain, "warning"].join(" ")}>Motion Warning!!!</p>
-        </li>
       </ul>
       <h2>Cool Packages & Components</h2>
       <p>
