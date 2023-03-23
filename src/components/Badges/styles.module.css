@@ -1,0 +1,33 @@
+.main {
+  background-color: var(--container-color);
+  width: 700px;
+  max-width: 95vw;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  flex-wrap: wrap;
+}
+
+.badges img {
+  padding: 5px;
+  display: block;
+}
+
+.slim {
+  margin: 5px !important;
+}
+
+@media (prefers-reduced-motion) {
+  .hide {
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+}

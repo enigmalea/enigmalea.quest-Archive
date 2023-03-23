@@ -1,0 +1,33 @@
+.main {
+  background-color: var(--container-color);
+  width: 700px;
+  max-width: 95vw;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socialButton:link,
+.socialButton:active,
+.socialButton:visited {
+  color: var(--container-color);
+  background: var(--ifm-color-primary);
+  border-radius: 70%;
+  font-size: 30px;
+  margin: 5px;
+  padding: 6px 7px;
+}
+
+.socialButton:hover {
+  color: var(--ifm-color-primary);
+  background: var(--container-color);
+}
+
+.socialButton svg {
+  text-align: center;
+  vertical-align: -10%;
+}

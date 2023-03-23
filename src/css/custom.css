@@ -3,241 +3,277 @@
 @import "/fontawesome/css/all.css";
 
 @font-face {
-	font-family: "AO3";
-	src: url("/fonts/AO3/AO3.eot");
-	src: url("/fonts/AO3/AO3.eot?#iefix") format("embedded-opentype"),
-		url("/fonts/AO3/AO3.woff") format("woff"),
-		url("/fonts/AO3/AO3.woff2") format("woff2"),
-		url("/fonts/AO3/AO3.ttf") format("truetype"),
-		url("/fonts/AO3/AO3.svg") format("svg");
-	font-weight: normal;
-	font-style: normal;
+  font-family: "AO3";
+  src: url("/fonts/AO3/AO3.eot");
+  src: url("/fonts/AO3/AO3.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/AO3/AO3.woff") format("woff"),
+    url("/fonts/AO3/AO3.woff2") format("woff2"),
+    url("/fonts/AO3/AO3.ttf") format("truetype"),
+    url("/fonts/AO3/AO3.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: "Victor Mono";
-	src: url("/fonts/VictorMono/VictorMono-Regular.eot");
-	src: url("/fonts/VictorMono/VictorMono-Regular.eot?#iefix")
-			format("embedded-opentype"),
-		url("/fonts/VictorMono/VictorMono-Regular.woff") format("woff"),
-		url("/fonts/VictorMono/VictorMono-Regular.woff2") format("woff2"),
-		url("/fonts/VictorMono/VictorMono-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Victor Mono";
+  src: url("/fonts/VictorMono/VictorMono-Regular.eot");
+  src: url("/fonts/VictorMono/VictorMono-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/VictorMono/VictorMono-Regular.woff") format("woff"),
+    url("/fonts/VictorMono/VictorMono-Regular.woff2") format("woff2"),
+    url("/fonts/VictorMono/VictorMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: "VictorMonoItalic";
-	src: url("/fonts/VictorMono/VictorMono-Italic.eot");
-	src: url("/fonts/VictorMono/VictorMono-Italic.eot?#iefix")
-			format("embedded-opentype"),
-		url("/fonts/VictorMono/VictorMono-Italic.woff") format("woff"),
-		url("/fonts/VictorMono/VictorMono-Italic.woff2") format("woff2"),
-		url("/fonts/VictorMono/VictorMono-Italic.ttf") format("truetype");
+  font-family: "VictorMonoItalic";
+  src: url("/fonts/VictorMono/VictorMono-Italic.eot");
+  src: url("/fonts/VictorMono/VictorMono-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/VictorMono/VictorMono-Italic.woff") format("woff"),
+    url("/fonts/VictorMono/VictorMono-Italic.woff2") format("woff2"),
+    url("/fonts/VictorMono/VictorMono-Italic.ttf") format("truetype");
 }
 
 /* You can override the default Infima variables here. */
 :root {
-	--ifm-color-primary: #dc8a78;
-	--ifm-color-primary-dark: #d5735d;
-	--ifm-color-primary-darker: #d26750;
-	--ifm-color-primary-darkest: #bd4a31;
-	--ifm-color-primary-light: #e3a193;
-	--ifm-color-primary-lighter: #e6ada1;
-	--ifm-color-primary-lightest: #f1d0c9;
-	--ifm-background-color: #eff1f5;
-	--container-color: #e6e9ef;
-	--ifm-background-surface-color: var(--container-color);
-	--ifm-navbar-background-color: #eff1f5;
-	--ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
-	--ifm-font-color-base: #4c4f69;
-	--ifm-blockquote-color: #6c6f85;
-	--header-color: #1e66f5;
-	--ifm-link-color: #dc8a78;
-	--ifm-link-hover-color: #dc8a78;
-	--ifm-color-emphasis-300: #9ca0b0;
-	--ifm-pagination-nav-color-hover: #fe640b;
-	--ifm-navbar-link-color: #dc8a78;
-	--ifm-navbar-link-hover-color: #fe640b;
-	--tag-font: #1e66f5;
-	--tag-background: rgba(138, 173, 244, 0.15);
-	--ifm-font-family-base: "Comfortaa", sans-serif;
-	--ifm-font-family-monospace: "Victor Mono", "Courier New", monospace;
-	--ifm-font-family-monospace-italic: "VictorMonoItalic", "Victor Mono", "Courier New", monospace;
+  --ifm-color-primary: #dc8a78;
+  --ifm-color-primary-dark: #d5735d;
+  --ifm-color-primary-darker: #d26750;
+  --ifm-color-primary-darkest: #bd4a31;
+  --ifm-color-primary-light: #e3a193;
+  --ifm-color-primary-lighter: #e6ada1;
+  --ifm-color-primary-lightest: #f1d0c9;
+  --ifm-background-color: #eff1f5;
+  --container-color: #e6e9ef;
+  --ifm-background-surface-color: var(--container-color);
+  --ifm-navbar-background-color: #eff1f5;
+  --ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
+  --ifm-font-color-base: #4c4f69;
+  --ifm-blockquote-color: #6c6f85;
+  --ifm-link-color: #dc8a78;
+  --ifm-link-hover-color: #dc8a78;
+  --ifm-color-emphasis-300: #9ca0b0;
+  --ifm-pagination-nav-color-hover: #fe640b;
+  --ifm-navbar-link-color: #dc8a78;
+  --ifm-navbar-link-hover-color: #fe640b;
+  --tag-font: #1e66f5;
+  --tag-background: rgba(138, 173, 244, 0.15);
+  --ifm-font-family-base: "Comfortaa", sans-serif;
+  --ifm-font-family-monospace: "Victor Mono", "Courier New", monospace;
+  --ifm-font-family-monospace-italic: "VictorMonoItalic", "Victor Mono",
+    "Courier New", monospace;
+  --ifm-code-font-size: 100%;
+  --catpuccin-red: #d20f39;
+  --catpuccin-orange: #fe640b;
+  --catpuccin-yellow: #df8e1d;
+  --catpuccin-green: #40a02b;
+  --catpuccin-blue: #1e66f5;
+  --catpuccin-violet: #7287fd;
+  --ifm-color-secondary: #8c8fa1;
+  --ifm-color-success: #40a02b;
+  --ifm-color-info: #179299;
+  --ifm-color-warning: #fe640b;
+  --ifm-color-danger: #d20f39;
+  --ifm-color-secondary-dark: #8c8fa1;
+  --ifm-color-success-dark: #40a02b;
+  --ifm-color-info-dark: #179299;
+  --ifm-color-warning-dark: #fe640b;
+  --ifm-color-danger-dark: #d20f39;
+  --ifm-color-secondary-contrast-background: rgba(140, 143, 161, 0.3);
+  --ifm-color-success-contrast-background: rgba(64, 160, 43, 0.3);
+  --ifm-color-info-contrast-background: rgba(23, 146, 153, 0.3);
+  --ifm-color-warning-contrast-background: rgba(254, 100, 11, 0.3);
+  --ifm-color-danger-contrast-background: rgba(210, 15, 57, 0.3);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme="dark"] {
-	--ifm-color-primary: #f4dbd6;
-	--ifm-color-primary-dark: #eabbb2;
-	--ifm-color-primary-darker: #e5aba0;
-	--ifm-color-primary-darkest: #d77c6a;
-	--ifm-color-primary-light: #fefbfa;
-	--ifm-color-primary-lighter: #ffffff;
-	--ifm-color-primary-lightest: #ffffff;
-	--ifm-background-color: #24273a;
-	--container-color: #363a4f;
-	--ifm-background-surface-color: var(--container-color);
-	--ifm-navbar-background-color: #24273a;
-	--ifm-navbar-shadow: 1px 1px 0px #6e738d;
-	--ifm-font-color-base: #cad3f5;
-	--ifm-blockquote-color: #a5adcb;
-	--ifm-link-color: #f4dbd6;
-	--ifm-link-hover-color: #f4dbd6;
-	--header-color: #8aadf4;
-	--ifm-color-emphasis-300: #6e738d;
-	--ifm-toc-border-color: #6e738d;
-	--ifm-pagination-nav-color-hover: #f5a97f;
-	--ifm-navbar-link-color: #f4dbd6;
-	--ifm-navbar-link-hover-color: #f5a97f;
-	--tag-font: #8aadf4;
-	--tag-background: rgba(138, 173, 244, 0.15);
+  --ifm-color-primary: #f4dbd6;
+  --ifm-color-primary-dark: #eabbb2;
+  --ifm-color-primary-darker: #e5aba0;
+  --ifm-color-primary-darkest: #d77c6a;
+  --ifm-color-primary-light: #fefbfa;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #24273a;
+  --container-color: #363a4f;
+  --ifm-background-surface-color: var(--container-color);
+  --ifm-navbar-background-color: #24273a;
+  --ifm-navbar-shadow: 1px 1px 0px #6e738d;
+  --ifm-font-color-base: #cad3f5;
+  --ifm-blockquote-color: #a5adcb;
+  --ifm-link-color: #f4dbd6;
+  --ifm-link-hover-color: #f4dbd6;
+  --ifm-color-emphasis-300: #6e738d;
+  --ifm-toc-border-color: #6e738d;
+  --ifm-pagination-nav-color-hover: #f5a97f;
+  --ifm-navbar-link-color: #f4dbd6;
+  --ifm-navbar-link-hover-color: #f5a97f;
+  --tag-font: #8aadf4;
+  --tag-background: rgba(138, 173, 244, 0.15);
+  --catpuccin-red: #ed8796;
+  --catpuccin-orange: #f5a97f;
+  --catpuccin-yellow: #eed49f;
+  --catpuccin-green: #a6da95;
+  --catpuccin-blue: #8aadf4;
+  --catpuccin-violet: #b7bdf8;
+  --ifm-color-secondary: #8087a2;
+  --ifm-color-success: #a6da95;
+  --ifm-color-info: #8bd5ca;
+  --ifm-color-warning: #f5a97f;
+  --ifm-color-danger: #ed8796;
+  --ifm-color-secondary-dark: #8087a2;
+  --ifm-color-success-dark: #a6da95;
+  --ifm-color-info-dark: #8bd5ca;
+  --ifm-color-warning-dark: #f5a97f;
+  --ifm-color-danger-dark: #ed8796;
+  --ifm-color-secondary-contrast-background: rgba(128, 135, 162, 0.5);
+  --ifm-color-success-contrast-background: rgba(166, 218, 149, 0.5);
+  --ifm-color-info-contrast-background: rgba(139, 213, 202, 0.5);
+  --ifm-color-warning-contrast-background: rgba(245, 169, 128, 0.5);
+  --ifm-color-danger-contrast-background: rgba(237, 135, 150, 0.5);
 }
 
 /* Scrollbars */
 ::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-button {
-	width: 0px;
-	height: 0px;
+  width: 0px;
+  height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-	background: var(--ifm-link-color);
-	border-radius: 50px;
+  background: var(--ifm-link-color);
+  border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: var(--ifm-link-hover-color);
+  background: var(--ifm-link-hover-color);
 }
 
 ::-webkit-scrollbar-track {
-	background: var(--ifm-background-color);
-	border-radius: 50px;
+  background: var(--ifm-background-color);
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-corner {
-	background: transparent;
+  background: transparent;
 }
 
 /* Footer Styling */
 .footer {
-	font-family: var(--ifm-font-family-monospace);
-	background-color: transparent;
+  font-family: var(--ifm-font-family-monospace);
+  background-color: transparent;
 }
 
 .pagedoll {
-	width: 150px;
-	height: auto;
-	max-width: 20%;
-	position: fixed;
-	bottom: 5px;
-	right: 5px;
-	z-index: 3;
+  width: 150px;
+  height: auto;
+  max-width: 20%;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3;
 }
 
 /* Removes Docusaurus external link icon */
 [class*="iconExternalLink"] {
-	display: none;
+  display: none;
 }
 
 /* Sets color for Light/Dark Color Icon */
 [class*="lightToggleIcon"] {
-	color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
 }
 
 html[data-theme="dark"] [class*="darkToggleIcon"] {
-	color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
 }
 
 /* Adds icons to navbar */
 .home::before {
-	font: var(--fa-font-solid);
-	content: "\f015";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f015";
+  padding-right: 5px;
 }
 
 .blog::before {
-	font: var(--fa-font-solid);
-	content: "\f303";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f303";
+  padding-right: 5px;
 }
 
 .ao3::before {
-	font-family: "AO3";
-	content: "A";
+  font-family: "AO3";
+  content: "A";
 }
 
 .github::before {
-	font: var(--fa-font-brands);
-	content: "\f09b";
-	padding-right: 5px;
+  font: var(--fa-font-brands);
+  content: "\f09b";
+  padding-right: 5px;
 }
 
 .info::before {
-	font: var(--fa-font-solid);
-	content: "\f05a";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f05a";
+  padding-right: 5px;
 }
 
 .mastodon::before {
-	font: var(--fa-font-brands);
-	content: "\f4f6";
-	padding-right: 5px;
+  font: var(--fa-font-brands);
+  content: "\f4f6";
+  padding-right: 5px;
 }
 
 .sections::before {
-	font: var(--fa-font-solid);
-	content: "\f802";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f802";
+  padding-right: 5px;
 }
 
 .social::before {
-	font: var(--fa-font-solid);
-	content: "\f086";
-	padding-right: 5px;
-}
-
-.pages::before {
-	font: var(--fa-font-solid);
-	content: "\f15b";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f086";
+  padding-right: 5px;
 }
 
 .tumblr::before {
-	font: var(--fa-font-brands);
-	content: "\f173";
-	padding-right: 5px;
+  font: var(--fa-font-brands);
+  content: "\f173";
+  padding-right: 5px;
 }
 
 .twitter::before {
-	font: var(--fa-font-brands);
-	content: "\f099";
-	padding-right: 5px;
+  font: var(--fa-font-brands);
+  content: "\f099";
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 996px) {
-	/* Header sizes for mobile */
-	h1 {
-		font-size: 1.902em;
-	}
+  /* Header sizes for mobile */
+  h1 {
+    font-size: 1.902em;
+  }
 
-	h2 {
-		font-size: 1.424em;
-	}
+  h2 {
+    font-size: 1.424em;
+  }
 
-	h3 {
-		font-size: 1.266em;
-	}
+  h3 {
+    font-size: 1.266em;
+  }
 
-	h4 {
-		font-size: 1.125em;
-	}
+  h4 {
+    font-size: 1.125em;
+  }
 }
 
 /* Link Styling */
 .navbar__link--active {
-	color: var(--ifm-link-color);
+  color: var(--ifm-link-color);
 }
 
 /* Text Stylings */
@@ -247,110 +283,158 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Victor Mono", monospace;
-	font-weight: normal;
-	font-style: normal;
-	color: var(--header-color);
+  font-family: "Victor Mono", monospace;
+  font-weight: normal;
+  font-style: normal;
 }
 
-[class*="page_src"],
-[class*="blog-wrapper"],
-[class*="docs-wrapper"] {
-	font-size: 1.1rem;
+h1 {
+  color: var(--catpuccin-red);
+}
+
+h2 {
+  color: var(--catpuccin-orange);
+}
+
+h3 {
+  color: var(--catpuccin-yellow);
+}
+
+h4 {
+  color: var(--catpuccin-green);
+}
+
+h5 {
+  color: var(--catpuccin-blue);
+}
+
+h6 {
+  color: var(--catpuccin-violet);
 }
 
 strong,
 b {
-	letter-spacing: 0.2rem;
-	color: var(--ifm-color-primary);
+  letter-spacing: 0.2rem;
+  color: var(--ifm-color-primary);
 }
 
 em {
-	font-family: var(--ifm-font-family-monospace-italic);
-	font-style: italic;
-	color: var(--ifm-color-secondary);
+  font-family: var(--ifm-font-family-monospace-italic);
+  font-style: italic;
+  color: var(--ifm-color-secondary);
 }
 
 figcaption {
-	font-size: 0.95rem;
-	font-style: italic;
-	font-variant: small-caps;
-	text-align: center;
-	letter-spacing: 0.1rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 0.1rem;
 }
 
 pre {
-	white-space: pre-wrap; /* Since CSS 2.1 */
-	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-	white-space: -pre-wrap; /* Opera 4-6 */
-	white-space: -o-pre-wrap; /* Opera 7 */
-	word-wrap: break-word; /* Internet Explorer 5.5+ */
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 blockquote {
-	display: block;
-	border-width: 2px 0;
-	border-style: solid;
-	border-color: var(--ifm-link-hover-color);
-	padding: 1.5em 0 1.5em;
-	margin: 1.5em 0;
-	position: relative;
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: var(--ifm-link-hover-color);
+  padding: 1.5em 0 1.5em;
+  margin: 1.5em 0;
+  position: relative;
 }
 
 blockquote::before {
-	content: "\201C";
-	position: absolute;
-	top: -0.5rem;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: var(--ifm-background-color);
-	width: 4rem;
-	height: 3rem;
-	font: 6em/1.08em "Victor Mono", sans-serif;
-	color: var(--ifm-link-hover-color);
-	text-align: center;
+  content: "\201C";
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--ifm-background-color);
+  width: 4rem;
+  height: 3rem;
+  font: 6em/1.08em "Victor Mono", sans-serif;
+  color: var(--ifm-link-hover-color);
+  text-align: center;
 }
 
 .inlineNote,
 .subNote {
-	font-family: var(--ifm-font-family-monospace);
-	color: var(--ifm-color-secondary);
-	font-weight: normal;
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--ifm-color-secondary);
+  font-weight: normal;
 }
 
 .inlineNote::before {
-	font-family: var(--ifm-font-family-monospace);
-	color: var(--ifm-color-secondary);
-	font-weight: bold;
-	content: "NOTE:";
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--ifm-color-secondary);
+  font-weight: bold;
+  content: "NOTE:";
 }
 
 /* Styles tags for blog */
 li [class^="tag"] {
-	color: var(--tag-font);
-	background: var(--tag-background);
-	border: 0px;
+  color: var(--tag-font);
+  background: var(--tag-background);
+  border: 0px;
 }
 
 /* Sets max image width and centers images */
 img {
-	max-width: 75%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 2px;
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+.normal {
+  max-width: unset;
+  border-radius: unset;
+  margin: unset;
+  display: unset;
 }
 
 /* summary & details styling */
 details {
-	font-family: var(--ifm-font-family-monospace);
-	background: transparent !important;
-	border: none !important;
-	--docusaurus-details-decoration-color: var(--ifm-color-primary) !important;
+  font-family: var(--ifm-font-family-monospace);
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  --docusaurus-details-decoration-color: var(--ifm-color-primary) !important;
 }
 
 summary {
-	font-family: var(--ifm-font-family-monospace-italic);
-	font-style: italic;
-	color: var(--tag-font) !important;
+  font-family: var(--ifm-font-family-monospace-italic);
+  font-style: italic;
+  color: var(--tag-font) !important;
+}
+
+/* HR style */
+hr {
+  border: none;
+  background-color: transparent;
+  background-image: url(/img/lightdivider.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15px;
+}
+
+html[data-theme="dark"] hr {
+  background-image: url(/img/darkdivider.png) !important;
+}
+
+.warning {
+  color: var(--catpuccin-red);
+  font-weight: bold;
+  font-family: var(--ifm-font-family-monospace);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

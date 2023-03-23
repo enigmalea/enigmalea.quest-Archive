@@ -1,35 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 
 .title {
-	display: block;
-	margin: 0 auto;
-	width: fit-content;
-	font-family: "Unica One", cursive;
-	font-size: 5.5rem;
-	background: var(--ifm-color-primary-lightest);
-	background: -webkit-linear-gradient(
-		180deg,
-		var(--ifm-color-primary-lightest) 0%,
-		var(--ifm-color-primary-darkest) 68%
-	);
-	background: -moz-linear-gradient(
-		180deg,
-		var(--ifm-color-primary-lightest) 0%,
-		var(--ifm-color-primary-darkest) 68%
-	);
-	background: linear-gradient(
-		180deg,
-		var(--ifm-color-primary-lightest) 0%,
-		var(--ifm-color-primary-darkest) 68%
-	);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	line-height: 1.7;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  font-family: "Unica One", cursive;
+  font-size: 5.5rem;
+  background: var(--catpuccin-red);
+  background: linear-gradient(
+    to right,
+    var(--catpuccin-red) 0%,
+    var(--catpuccin-orange) 17%,
+    var(--catpuccin-yellow) 34%,
+    var(--catpuccin-green) 51%,
+    var(--catpuccin-blue) 68%,
+    var(--catpuccin-violet) 100%
+  );
+  line-height: 1.7;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 996px) {
-	.title {
-		font-size: 10vw;
-	}
+  .title {
+    font-size: 10vw;
+  }
 }
