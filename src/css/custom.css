@@ -216,12 +216,6 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
   padding-right: 5px;
 }
 
-.info::before {
-  font: var(--fa-font-solid);
-  content: "\f05a";
-  padding-right: 5px;
-}
-
 .mastodon::before {
   font: var(--fa-font-brands);
   content: "\f4f6";
@@ -237,6 +231,12 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
 .social::before {
   font: var(--fa-font-solid);
   content: "\f086";
+  padding-right: 5px;
+}
+
+.pages::before {
+  font: var(--fa-font-solid);
+  content: "\f15b";
   padding-right: 5px;
 }
 
