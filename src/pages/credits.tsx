@@ -102,7 +102,7 @@ function Main() {
           Queer badge from{" "}
           <a href="https://pixels.heylouise.space/">Elfwink's Pixels</a>
         </li>
-		<li>
+        <li>
           AO3 Explicit button from{" "}
           <a href="https://dldr.xyz/web">bloodwrites</a>
         </li>
