@@ -124,8 +124,8 @@ function Main() {
 				</li>
 			</ul>
 			<p>
-				<details className={styles.an}>
-					<summary className={styles.an}>Absolutely No</summary>
+				<details>
+					<summary>Absolutely No</summary>
 					<p>
 						<strong>General:</strong> Character/Reader (or Second Person),
 						character bashing, non-canonical major character death, abuse
