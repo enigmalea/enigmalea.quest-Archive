@@ -19,16 +19,16 @@ function Main() {
         <a href="https://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>.
       </p>
       <p>
-        You can also find the link to my tumblr, twitter, and AO3 in the
-        navbar/menu above. For OC info, please check out the link to my Dragon
-        Age OCs; please note my OC list is very incomplete and under
-        construction, so for ships which contain OCs I'm <u>always</u> okay with
+        You can also find the link to my tumblr and AO3 in the navbar/menu
+        above. For any ships which contain OCs I'm <u>always</u> okay with
         receiving fics and art with your OCS, default characters, or my own OCs.
-        The choice is yours.
+        The choice is yours. When requesting OCs, I usually link to relevant
+        info for them on the AO3 request!
       </p>
       <p>
         I'm also never set on any prompts listed in or provided with my sign-up
-        they're only there to help you get started if you're having trouble.
+        they're only there to help you get started if you're having trouble. I
+        welcome anything not on my DNWs and that are of your own interpretation!
       </p>
       <p className="text--center">Happy creating!</p>
       <p className="text--center">
@@ -40,7 +40,7 @@ function Main() {
           Do Not Wants
         </a>
       </p>
-	  <hr />
+      <hr />
       <section className={styles.likes}>
         <a id="likes"></a>
         <h2 className={styles.likes}>Likes</h2>
@@ -66,9 +66,9 @@ function Main() {
         <p>
           <strong>Tropes:</strong> Gay/bisexual panic (aka the "<em>oh</em>"
           moment), "only one bed", pretend dating, arranged marriage where they
-          fall for each other, one-sided pining, idiots to lovers, enemies to
-          lovers, friends to lovers, roomates, accidental polyamory, intentional
-          polyamory with negotiations.
+          fall for each other, one-sided pining, idiots-to-lovers,
+          enemies-to-lovers, friends-to-lovers, roommates, accidental polyamory,
+          intentional polyamory with negotiations.
         </p>
 
         <p>
@@ -77,7 +77,7 @@ function Main() {
             text="BDSM, edging, restraints, blindfolds, collars, nipple play, anal play, pegging,
         frottage/outercourse, intercrural sex, oral sex, deep throating, face fucking, biting/marking, rough sex, praise
         kinks, impact play, shibari, temp play, double penetration, spit-roasting, breath play, semi-public sex,
-        voyeurism/exhibitionism, sexting/cybersex/phone sex, multiple orgasms, power bottoms/bottom Doms, after care."
+        voyeurism/exhibitionism, sexting/cybersex/phone sex, multiple orgasms, power bottoms/bottom Doms, submissive tops, after care."
             hiddenColor="var(--ifm-font-color-base)"
             revealedColor="transparent"
           />
@@ -90,7 +90,7 @@ function Main() {
             them.
           </em>{" "}
           <Spoiler
-            text="Bottom Iron Bull, sub Iron Bull, dominent/Dom bottom Anders, sub Solas."
+            text="Bottom Iron Bull, sub Iron Bull, dominant/Dom bottom Anders, sub Solas."
             hiddenColor="var(--ifm-font-color-base)"
             revealedColor="transparent"
           />
@@ -120,7 +120,7 @@ function Main() {
         <p>
           <strong>Other Prefs:</strong> I enjoy pretty much all fan content -
           photo manips, rotoscopes, playlists, podfic. As with art above, feel
-          free to base gifts on my own content if you'd like, or do something
+          free to base gifts on my own content if you'd like or do something
           completely original. Graphics meant to mimic found documents (field
           notes, journals, etc) and other ephemera (letters, notes, etc) are a
           particular fave.
@@ -162,7 +162,7 @@ function Main() {
             and have sex without consent being established ahead of time. dub-con due to secrets/hidden identities is
             fine.), adult/minor, fisting, bodily waste products (blood play is fine), sounding, incest, humiliation
             (impact play or other punishments are okay, but verbal humiliation is not okay), ageplay (DD/lg), raceplay,
-            A/B/O (knotting okay), tentacles, other monsters than those in my likes, oviposition, vore, bestiality"
+            A/B/O (knotting okay), tentacles, other monsters than those in my likes, oviposition, vore, bestiality."
             hiddenColor="var(--ifm-font-color-base)"
             revealedColor="transparent"
           />
