@@ -13,7 +13,7 @@ function Main() {
       <p>
         This site is a personal website intended to house all the various things
         I do, obsess over, or just think are neat. I hope to update it
-        semi-regularly, and right now it's still under major contruction.
+        semi-regularly, and right now it's still under major construction.
       </p>
 
       <h2>Where to Find Things</h2>
@@ -45,9 +45,10 @@ export default function Home(): JSX.Element {
       <Header />
       <main className={styles.page}>
         <Main />
-		<Badges />
+        <Badges />
         <Socials />
       </main>
     </Layout>
   );
 }
+
