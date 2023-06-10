@@ -86,6 +86,10 @@ const config = {
             position: "left",
             className: "pages",
             items: [
+							{
+                label: "Projects",
+                href: "/projects",
+              },
               {
                 label: "Exchange Letter",
                 href: "/letter",

@@ -401,6 +401,15 @@ img {
   display: unset;
 }
 
+.card__image img {
+	max-width: 100%;
+}
+
+.card-demo {
+	width: 450px;
+	max-width: 85vw;
+}
+
 /* summary & details styling */
 details {
   font-family: var(--ifm-font-family-monospace);

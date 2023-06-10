@@ -222,7 +222,7 @@ function Main() {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Letter(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout

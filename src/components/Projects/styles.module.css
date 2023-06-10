@@ -1,0 +1,31 @@
+.Projects {
+	display: flex;
+	justify-content: center;
+}
+
+.myMasonryGrid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+	align-items:flex-start;
+	justify-content: space-around;
+  width: auto;
+	max-width: 90vw;
+}
+.myMasonryGridColumn {
+  padding: 15px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.myMasonryGridColumn > div { /* change div to reference your elements you put in <Masonry> */
+	background-color: var(--container-color);
+  max-width: 90vw;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cardHeader {
+	line-height: 150%;
+	padding-bottom: 5px;
+}
