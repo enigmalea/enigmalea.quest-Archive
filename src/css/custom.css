@@ -1,5 +1,5 @@
 /* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 @import "/fontawesome/css/all.css";
 
 @font-face {
@@ -10,6 +10,23 @@
     url("/fonts/AO3/AO3.woff2") format("woff2"),
     url("/fonts/AO3/AO3.ttf") format("truetype"),
     url("/fonts/AO3/AO3.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102.eot");
+  src: url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102.woff")
+      format("woff"),
+    url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2")
+      format("woff2"),
+    url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf")
+      format("truetype"),
+    url("/fonts/Hyperlegible/Atkinson-Hyperlegible-Regular-102.svg")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -60,7 +77,7 @@
   --ifm-navbar-link-hover-color: #fe640b;
   --tag-font: #1e66f5;
   --tag-background: rgba(138, 173, 244, 0.15);
-  --ifm-font-family-base: "Comfortaa", sans-serif;
+  --ifm-font-family-base: "Atkinson Hyperlegible", sans-serif;
   --ifm-font-family-monospace: "Victor Mono", "Courier New", monospace;
   --ifm-font-family-monospace-italic: "VictorMonoItalic", "Victor Mono",
     "Courier New", monospace;
@@ -84,8 +101,9 @@
   --ifm-color-secondary-contrast-background: rgba(140, 143, 161, 0.3);
   --ifm-color-success-contrast-background: rgba(64, 160, 43, 0.3);
   --ifm-color-info-contrast-background: rgba(23, 146, 153, 0.3);
-  --ifm-color-warning-contrast-background: rgba(254, 100, 11, 0.3);
+  --ifm-color-warning-contrast-background: rgba(223, 142, 29, 0.5);
   --ifm-color-danger-contrast-background: rgba(210, 15, 57, 0.3);
+	--ifm-font-size-base: 120%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -132,7 +150,7 @@ html[data-theme="dark"] {
   --ifm-color-secondary-contrast-background: rgba(128, 135, 162, 0.5);
   --ifm-color-success-contrast-background: rgba(166, 218, 149, 0.5);
   --ifm-color-info-contrast-background: rgba(139, 213, 202, 0.5);
-  --ifm-color-warning-contrast-background: rgba(245, 169, 128, 0.5);
+  --ifm-color-warning-contrast-background: rgba(238, 212, 159, 0.5);
   --ifm-color-danger-contrast-background: rgba(237, 135, 150, 0.5);
 }
 
@@ -315,7 +333,7 @@ h6 {
 strong,
 b {
   letter-spacing: 0.2rem;
-  color: var(--ifm-color-primary);
+  color: var(--catpuccin-green);
 }
 
 em {
@@ -402,12 +420,12 @@ img {
 }
 
 .card__image img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .card-demo {
-	width: 450px;
-	max-width: 85vw;
+  width: 450px;
+  max-width: 85vw;
 }
 
 /* summary & details styling */
