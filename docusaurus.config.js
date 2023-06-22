@@ -66,12 +66,12 @@ const config = {
             items: [
               {
                 type: "doc",
-                docId: "Garden/intro",
+                docId: "Garden/index",
                 label: "Digital Garden",
               },
               {
                 type: "doc",
-                docId: "DA/intro",
+                docId: "DA/index",
                 label: "Dragon Age Resources",
               },
               {

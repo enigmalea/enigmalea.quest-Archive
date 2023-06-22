@@ -45,27 +45,16 @@ function Main() {
       <h2>Fonts</h2>
       <ul className={styles.list}>
         <li>
-          Google
-          <ul className={styles.list2}>
-            <li>
-              <a
-                href="https://fonts.google.com/specimen/Unica+One"
-                target="_blank"
-              >
-                Unica One
-              </a>{" "}
-              for "enigmalea" header.
-            </li>
-            <li>
-              <a
-                href="https://fonts.google.com/specimen/Comfortaa"
-                target="_blank"
-              >
-                Comfortaa
-              </a>{" "}
-              for body text.
-            </li>
-          </ul>
+          <a href="https://fonts.google.com/specimen/Unica+One" target="_blank">
+            Unica One
+          </a>{" "}
+          for "enigmalea" header.
+        </li>
+        <li>
+          <a href="https://brailleinstitute.org/freefont" target="_blank">
+            Atkinson Hyperlegible
+          </a>{" "}
+          for body text.
         </li>
         <li>
           <a href="https://rubjo.github.io/victor-mono/" target="_blank">
@@ -102,7 +91,7 @@ function Main() {
           Queer badge from{" "}
           <a href="https://pixels.heylouise.space/">Elfwink's Pixels</a>
         </li>
-		<li>
+        <li>
           AO3 Explicit button from{" "}
           <a href="https://dldr.xyz/web">bloodwrites</a>
         </li>
@@ -144,7 +133,7 @@ function Main() {
         </li>
         <li>
           <a href="https://github.com/dazulu/react-spoiler-tag">
-            Reach Spoiler Tag
+            React Spoiler Tag
           </a>
           <p className={styles.explain}>
             Used to create clickable spoiler text. Used on my exchange letter
