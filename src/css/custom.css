@@ -69,12 +69,15 @@
   --ifm-navbar-shadow: 1px 1px 0px #9ca0b0;
   --ifm-font-color-base: #4c4f69;
   --ifm-blockquote-color: #6c6f85;
-  --ifm-link-color: #dc8a78;
+  --ifm-link-color: #1e66f5;
   --ifm-link-hover-color: #dc8a78;
+  --ifm-color-emphasis-200: rgba(172, 176, 190, 0.5);
   --ifm-color-emphasis-300: #9ca0b0;
-  --ifm-pagination-nav-color-hover: #fe640b;
-  --ifm-navbar-link-color: #dc8a78;
-  --ifm-navbar-link-hover-color: #fe640b;
+  --ifm-pagination-nav-color-hover: #dc8a78;
+  --ifm-navbar-link-color: #1e66f5;
+  --ifm-navbar-link-hover-color: #dc8a78;
+  --ifm-dropdown-link-color: #1e66f5;
+  --ifm-dropdown-hover-background-color: rgba(172, 176, 190, 0.5);
   --tag-font: #1e66f5;
   --tag-background: rgba(138, 173, 244, 0.15);
   --ifm-font-family-base: "Atkinson Hyperlegible", sans-serif;
@@ -103,7 +106,7 @@
   --ifm-color-info-contrast-background: rgba(23, 146, 153, 0.3);
   --ifm-color-warning-contrast-background: rgba(223, 142, 29, 0.5);
   --ifm-color-danger-contrast-background: rgba(210, 15, 57, 0.3);
-	--ifm-font-size-base: 120%;
+  --ifm-font-size-base: 120%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -122,13 +125,15 @@ html[data-theme="dark"] {
   --ifm-navbar-shadow: 1px 1px 0px #6e738d;
   --ifm-font-color-base: #cad3f5;
   --ifm-blockquote-color: #a5adcb;
-  --ifm-link-color: #f4dbd6;
+  --ifm-link-color: #8aadf4;
   --ifm-link-hover-color: #f4dbd6;
+  --ifm-color-emphasis-200: rgba(91, 96, 120, 0.5);
   --ifm-color-emphasis-300: #6e738d;
-  --ifm-toc-border-color: #6e738d;
-  --ifm-pagination-nav-color-hover: #f5a97f;
-  --ifm-navbar-link-color: #f4dbd6;
-  --ifm-navbar-link-hover-color: #f5a97f;
+  --ifm-pagination-nav-color-hover: #f4dbd6;
+  --ifm-navbar-link-color: #8aadf4;
+  --ifm-navbar-link-hover-color: #f4dbd6;
+  --ifm-dropdown-link-color: #8aadf4;
+  --ifm-dropdown-hover-background-color: rgba(91, 96, 120, 0.5);
   --tag-font: #8aadf4;
   --tag-background: rgba(138, 173, 244, 0.15);
   --catpuccin-red: #ed8796;
@@ -203,11 +208,11 @@ html[data-theme="dark"] {
 
 /* Sets color for Light/Dark Color Icon */
 [class*="lightToggleIcon"] {
-  color: var(--ifm-color-primary);
+  color: var(--catpuccin-yellow);
 }
 
 html[data-theme="dark"] [class*="darkToggleIcon"] {
-  color: var(--ifm-color-primary);
+  color: var(--catpuccin-yellow);
 }
 
 /* Adds icons to navbar */

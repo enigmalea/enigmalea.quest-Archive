@@ -14,17 +14,14 @@
 .socialButton:link,
 .socialButton:active,
 .socialButton:visited {
-  color: var(--container-color);
-  background: var(--ifm-color-primary);
-  border-radius: 70%;
+  color: var(--ifm-link-color);
   font-size: 30px;
   margin: 5px;
   padding: 6px 7px;
 }
 
 .socialButton:hover {
-  color: var(--ifm-color-primary);
-  background: var(--container-color);
+  color: var(--ifm-link-hover-color);
 }
 
 .socialButton svg {
