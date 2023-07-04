@@ -24,6 +24,7 @@ const config = {
         docs: {
           breadcrumbs: true,
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsed: false,
         },
         blog: {
           blogTitle: "Update Log",
@@ -86,7 +87,7 @@ const config = {
             position: "left",
             className: "pages",
             items: [
-							{
+              {
                 label: "Projects",
                 href: "/projects",
               },
