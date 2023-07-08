@@ -15,7 +15,7 @@ export default function Socials(): JSX.Element {
       <h2>Follow Me</h2>
       <div className={styles.socials}>
         <a
-          href="https://zapier.com/engine/rss/4727282/enigmalea"
+          href="https://zapier.com/engine/rss/4727282/enig"
           title="RSS"
           className={styles.socialButton}
         >
