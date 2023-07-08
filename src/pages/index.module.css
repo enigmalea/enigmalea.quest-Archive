@@ -86,15 +86,15 @@ h3.cdnw {
 }
 
 .badges {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  .badges img {
-	padding: 5px;
-	display: block;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badges img {
+  padding: 5px;
+  display: block;
+}
 
 @media screen and (max-width: 995px) {
   .page {
@@ -105,6 +105,26 @@ h3.cdnw {
     margin-top: 10px;
     margin-left: 0px;
   }
+}
+
+.MyAnimeList:link,
+.MyAnimeList:active,
+.MyAnimeList:visited {
+  color: var(--ifm-link-color);
+  margin: 5px;
+  padding: 6px 7px;
+}
+
+.MyAnimeList:link svg,
+.MyAnimeList:active svg,
+.MyAnimeList:visited svg {
+  font-size: 30px;
+	vertical-align: middle;
+}
+
+.MyAnimeList:hover {
+  color: var(--ifm-link-hover-color);
+  text-decoration: none;
 }
 
 /* .gdrive {

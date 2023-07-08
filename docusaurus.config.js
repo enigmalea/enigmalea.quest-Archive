@@ -115,6 +115,12 @@ const config = {
             position: "left",
             className: "social",
             items: [
+							{
+                href: "https://zapier.com/engine/rss/4727282/enigmalea",
+                label: "\u200B RSS",
+                rel: "me",
+                className: "rss",
+              },
               {
                 href: "https://archiveofourown.org/users/enigmalea",
                 label: "\u200B AO3",
@@ -138,6 +144,12 @@ const config = {
                 label: "\u200B Github",
                 rel: "me",
                 className: "github",
+              },
+							{
+                href: "https://retrospring.net/@enigmalea",
+                label: "\u200B retrospring",
+                rel: "me",
+                className: "retrospring",
               },
             ],
           },

@@ -245,6 +245,18 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
   padding-right: 5px;
 }
 
+.retrospring::before {
+  font: var(--fa-font-solid);
+  content: "\f27a";
+  padding-right: 5px;
+}
+
+.rss::before {
+  font: var(--fa-font-solid);
+  content: "\f09e";
+  padding-right: 5px;
+}
+
 .sections::before {
   font: var(--fa-font-solid);
   content: "\f802";
