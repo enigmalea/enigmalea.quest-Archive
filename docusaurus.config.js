@@ -116,7 +116,7 @@ const config = {
             className: "social",
             items: [
 							{
-                href: "https://zapier.com/engine/rss/4727282/enigmalea",
+                href: "https://zapier.com/engine/rss/4727282/enig",
                 label: "\u200B RSS",
                 rel: "me",
                 className: "rss",
