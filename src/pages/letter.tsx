@@ -15,20 +15,21 @@ function Main() {
         Thanks so much for taking some time to read my letter to get a better
         feel for things I like and don't like. This is my general info, but more
         specifics of what I'm looking for are usually included with my prompts
-        during sign-up. If you have questions please feel free to send me{" "}
-        <a href="https://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>.
+        during sign-up. If you have any questions, please feel free to send me{" "}
+        <a href="https://enigmalea.tumblr.com/ask">an anon ask on tumblr</a>,
+        reach out to mods, or contact my BFF FoxInBoots who knows 100% of what I
+        like and will never steer you wrong.
       </p>
       <p>
-        You can also find the link to my tumblr and AO3 in the navbar/menu
-        above. For any ships which contain OCs I'm <u>always</u> okay with
-        receiving fics and art with your OCS, default characters, or my own OCs.
-        The choice is yours. When requesting OCs, I usually link to relevant
-        info for them on the AO3 request!
+        For any ships which contain OCs I'm <u>always</u> okay with receiving
+        fics and art with your own OCS, default characters, or my own OCs. The
+        choice is yours. When requesting OCs, I usually link to relevant info
+        for them on the AO3 request!
       </p>
       <p>
-        I'm also never set on any prompts listed in or provided with my sign-up
+        I'm also never set on any prompts listed in or provided with my sign-up;
         they're only there to help you get started if you're having trouble. I
-        welcome anything not on my DNWs and that are of your own interpretation!
+        welcome anything not on my DNWs!
       </p>
       <p className="text--center">Happy creating!</p>
       <p className="text--center">
