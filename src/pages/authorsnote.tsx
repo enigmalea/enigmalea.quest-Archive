@@ -58,8 +58,8 @@ function Main() {
 					</a>
 				</li>
 				<li>
-					<a href="https://indiepocalypse.social/@enigmalea" rel="nofollow">
-						mastodon
+					<a href="https://easymode.im/@enigmalea" rel="nofollow">
+						firefish
 					</a>
 				</li>
 				<li>

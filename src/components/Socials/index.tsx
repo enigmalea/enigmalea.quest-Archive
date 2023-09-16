@@ -1,10 +1,6 @@
-import {
-  SiArchiveofourown,
-  SiGithub,
-  SiMastodon,
-  SiTumblr,
-} from "react-icons/si";
+import { SiArchiveofourown, SiGithub, SiTumblr } from "react-icons/si";
 
+import { FaFish } from "react-icons/fa";
 import { HiMiniRss } from "react-icons/hi2";
 import React from "react";
 import styles from "./styles.module.css";
@@ -36,11 +32,11 @@ export default function Socials(): JSX.Element {
           <SiTumblr />
         </a>
         <a
-          href="https://indiepocalypse.social/@enigmalea"
-          title="mastodon"
+          href="https://easymode.im/@enigmalea"
+          title="FireFish"
           className={styles.socialButton}
         >
-          <SiMastodon />
+          <FaFish />
         </a>
         <a
           href="https://github.com/enigmalea"

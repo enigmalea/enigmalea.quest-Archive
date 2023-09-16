@@ -72,7 +72,7 @@ function Main() {
       <p>
         The RSS link in the "Follow Me" section is an aggregated RSS feed of{" "}
         <em>all</em> of my social media compiled into one feed. It pulls all of
-        my updates from tumblr, dreamwidth, mastodon, calckey, and this site's
+        my updates from tumblr, dreamwidth, firefish, and this site's
         update blog into one RSS. It's the easiest way to see <em>almost</em>{" "}
         everything I do.
       </p>
