@@ -134,10 +134,10 @@ const config = {
                 className: "tumblr",
               },
               {
-                href: "https://indiepocalypse.social/@enigmalea",
-                label: "\u200B Mastodon",
+                href: "https://easymode.im/@enigmalea",
+                label: "\u200B FireFish",
                 rel: "me",
-                className: "mastodon",
+                className: "firefish",
               },
               {
                 href: "https://github.com/enigmalea",
@@ -147,7 +147,7 @@ const config = {
               },
 							{
                 href: "https://retrospring.net/@enigmalea",
-                label: "\u200B retrospring",
+                label: "\u200B Retrospring",
                 rel: "me",
                 className: "retrospring",
               },

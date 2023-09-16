@@ -239,9 +239,9 @@ html[data-theme="dark"] [class*="darkToggleIcon"] {
   padding-right: 5px;
 }
 
-.mastodon::before {
-  font: var(--fa-font-brands);
-  content: "\f4f6";
+.firefish::before {
+  font: var(--fa-font-solid);
+  content: "\f578";
   padding-right: 5px;
 }
 
