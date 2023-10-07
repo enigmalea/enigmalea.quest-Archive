@@ -1,7 +1,24 @@
-/**
+/*
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+
+ .spoopy {
+	font-family: "Ghastly Panic", var(--ifm-font-family-monospace);
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+	font-size: 3rem;
+}
+
+.inline {
+	display: inline;
+	max-width: unset;
+	border-radius: none;
+	padding: 0px;
+	margin: 0px;
+	vertical-align:text-bottom;
+}
 
 .page {
   display: flex !important;
