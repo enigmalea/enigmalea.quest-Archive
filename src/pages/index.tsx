@@ -10,12 +10,41 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 function Main() {
   return (
     <div className={styles.main}>
-      <h1>Welcome!</h1>
+      <div className="spider">
+        <div className="spiderweb"></div>
+        <div className="body">
+          <div className="eye left"></div>
+          <div className="eye right"></div>
+        </div>
+        <div className="legs left">
+          <div className="leg"></div>
+          <div className="leg"></div>
+          <div className="leg"></div>
+        </div>
+        <div className="legs right">
+          <div className="leg"></div>
+          <div className="leg"></div>
+          <div className="leg"></div>
+        </div>
+      </div>
+      <h1 className={styles.spoopy}>
+        <img
+          src="/img/pumpkin.png"
+          alt="an orange jack o' lantern image"
+          className={styles.inline}
+        />
+        Happy Halloween
+        <img
+          src="/img/pumpkin.png"
+          alt="an orange jack o' lantern image"
+          className={styles.inline}
+        />
+      </h1>
       <p>
-        Hello. Thanks for joining me in my internet home! You might be wondering
-        what exactly this place is and how you got here. How you got here is
-        easy: you likely clicked on a random link from one of the many social
-        media sites I visit and ended up here. What this is... is a little more
+        Thanks for joining me in my internet home! You might be wondering what
+        exactly this place is and how you got here. How you got here is easy:
+        you likely clicked on a random link from one of the many social media
+        sites I visit and ended up here. What this is... is a little more
         difficult.
       </p>
 
@@ -72,8 +101,8 @@ function Main() {
       <p>
         The RSS link in the "Follow Me" section is an aggregated RSS feed of{" "}
         <em>all</em> of my social media compiled into one feed. It pulls all of
-        my updates from tumblr, dreamwidth, firefish, and this site's
-        update blog into one RSS. It's the easiest way to see <em>almost</em>{" "}
+        my updates from tumblr, dreamwidth, firefish, and this site's update
+        blog into one RSS. It's the easiest way to see <em>almost</em>{" "}
         everything I do.
       </p>
 

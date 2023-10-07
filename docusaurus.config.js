@@ -162,7 +162,7 @@ const config = {
             items: [
               {
                 html: `
-									<img class="pagedoll" title="art by @KiingFluffybuns" src="/img/pagedoll.png"></img>
+									<img class="pagedoll" title="art by @KiingFluffybuns" src="/img/spoopy_pagedoll.png"></img>
 									`,
               },
             ],
