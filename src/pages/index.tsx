@@ -10,36 +10,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 function Main() {
   return (
     <div className={styles.main}>
-      <div className="spider">
-        <div className="spiderweb"></div>
-        <div className="body">
-          <div className="eye left"></div>
-          <div className="eye right"></div>
-        </div>
-        <div className="legs left">
-          <div className="leg"></div>
-          <div className="leg"></div>
-          <div className="leg"></div>
-        </div>
-        <div className="legs right">
-          <div className="leg"></div>
-          <div className="leg"></div>
-          <div className="leg"></div>
-        </div>
-      </div>
-      <h1 className={styles.spoopy}>
-        <img
-          src="/img/pumpkin.png"
-          alt="an orange jack o' lantern image"
-          className={styles.inline}
-        />
-        Happy Halloween
-        <img
-          src="/img/pumpkin.png"
-          alt="an orange jack o' lantern image"
-          className={styles.inline}
-        />
-      </h1>
+      <h1>Welcome!</h1>
       <p>
         Thanks for joining me in my internet home! You might be wondering what
         exactly this place is and how you got here. How you got here is easy:
