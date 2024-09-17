@@ -34,7 +34,7 @@ function Main() {
       <h2>Color Schemes</h2>
       <ul className={styles.list}>
         <li>
-          Inpired by{" "}
+          Inspired by{" "}
           <a href="https://github.com/catppuccin/catppuccin" target="_blank">
             Catpuccin
           </a>

@@ -10,16 +10,33 @@ This tutorial focuses on creating an extension request form for your fanworks
 exchange so that people can complete a form to ask for an extension. It also
 provides you with a way to track extensions easier.
 
-## Create Airtable Account
+## Before You Start
 
-To start, you'll need to create two accounts. I recommend that you use google
-login if your mod team shares a gmail account, that way there's no additional
-passwords to remember or share.
+Before you start, you'll need to create two accounts if you'd like to receive
+notifications in Discord. I recommend that you use google login if your mod team
+shares a gmail account, that way there's no additional passwords to remember or
+share.
 
-[Airtable](https://airtable.com/) Airtable is a cloud-based database-spreadsheet
-hybrid which allows you to leverage the complicated features of a database, with
-the ease of use of a spreadsheet. If you can handle google sheets, you can
-handle Airtable!
+1. [Airtable](https://airtable.com/) Airtable is a cloud-based
+   database-spreadsheet hybrid which allows you to leverage the complicated
+   features of a database, with the ease of use of a spreadsheet. If you can
+   handle google sheets, you can handle Airtable!
+
+<!-- prettier-ignore-start -->
+
+2. [Pipedream](https://pipedream.com) Pipedream is an automation service (like
+IFTTT or Zapier) with very generous monthly limits. It also allows you to
+execute custom code, which is useful for creating customized messages with
+embeds, images, and other data besides plain text. <span className="inlineNote">You
+do not need to sign-up for Pipedream if you do not want Discord
+notifications.</span>
+
+<!-- prettier-ignore-end -->
+
+**For Discord Notifications:** You will also need to create a webhook URL
+pointed to the channel where you would like to receive your notifications.
+Please see [Creating Discord Webhooks](/docs/tutorials/webhooks) for
+instructions if you need them.
 
 ## Creating the Base/Table
 
@@ -50,7 +67,7 @@ edit the code.
 
 3. Rename "Table 1" to "Extensions".
 
-   ![](/img/docs/tutorials/extensions/tablename.png))
+   ![](/img/docs/tutorials/extensions/tablename.png)
 
 **🎉 Congrats! You've set up your first base and are ready to customize your
 fields.**
@@ -69,7 +86,7 @@ All bases come pre-populated with four fields. You can edit the four initial
 fields and create three more for a total of seven. In the end you should end up
 with the following fields:
 
-![](/img/docs/tutorials/extensions/fields.png))
+![](/img/docs/tutorials/extensions/fields.png)
 
 <details><summary>Field Details</summary>
 
@@ -96,7 +113,7 @@ forms of communication, i.e. Twitter username, Dreamwidth username, etc.
 
 <details><summary>To Edit Existing Fields</summary>
 
-1. Click on the down caret and select "Edit field".
+1. Click on the <i class="fa-solid fa-angle-down"></i> and select "Edit field".
 
    ![](/img/docs/tutorials/extensions/editfield.png)
 
@@ -108,7 +125,8 @@ forms of communication, i.e. Twitter username, Dreamwidth username, etc.
 
 <details><summary>To Add A New Field</summary>
 
-1. Click the large plus at the end of the existing fields.
+1. Click the large <i class="fa-solid fa-plus"></i> at the end of the existing
+   fields.
 
    ![](/img/docs/tutorials/extensions/addfield.png)
 
@@ -143,9 +161,13 @@ Airtable provides. There are several other ways to view data that makes things
 easier to manage. I encourage you to explore the options for what works best for
 your mod team. The two below are my personal faves for this type of base.
 
-**To Create a New View:** In the left hand sidebar at the bottom, click the plus
+<!-- prettier-ignore-start -->
+
+**To Create a New View:** In the left hand sidebar at the bottom, click the <i class="fa-solid fa-plus"></i>
 next to the new type of view you'd like to use. You can name these views
 whatever you'd like as they don't impact the code in any way.
+
+<!-- prettier-ignore-end -->
 
 <details><summary>Form View</summary>
 
